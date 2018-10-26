@@ -28,11 +28,11 @@ class Login extends MY_Controller {
 					if ( $res->user_role == 'admin' ) {
 						redirect( 'admin/dashboard' );
 					} else {
-						redirect( '/dashboard' );
+						redirect( $res->user_role.'/dashboard' );
 					}
 				}
 			} else {
-				$this->session->set_flashdata('error', 'Email or password mismatch');
+                $this->session->set_flashdata(array('msg_type'=>'error','msg'=>'Username or password mismatch'));
 				redirect('/login');
 			}
 		}

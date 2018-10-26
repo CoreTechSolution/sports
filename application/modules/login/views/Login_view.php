@@ -6,6 +6,7 @@
 			<div class="col-xl-4"></div>
 			<div class="col-xl-4">
 				<div class="formwrapper">
+                    <?php $this->templates->call_error_template(); ?>
 					<form id="forms" method="post" action="login/login_form">
 						<div class="form-group">
 							<label>Username</label>

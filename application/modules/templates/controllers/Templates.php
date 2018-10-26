@@ -13,4 +13,7 @@ class Templates extends MY_Controller {
 	public function call_user_template($data = null) {
 		$this->load->view('templates/user_template_view', $data);
 	}
+	public  function call_error_template($data = null){
+        $this->load->view('templates/error_v', $data);
+    }
 }
