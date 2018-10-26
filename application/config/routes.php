@@ -60,4 +60,4 @@ $route['admin/add-ground'] = 'admin/add_ground';
 $route['forgot-password'] = 'login/forgot_password';
 $route['thankyou'] = 'login/thankyou';
 $route['resetpassword'] = 'login/resetpassword';
-$route['become-league-owner'] = 'dashboard/become_league_owner';
+$route['customer/become-league-owner'] = 'customer/become_league_owner';

@@ -1844,3 +1844,840 @@ DEBUG - 2018-10-26 16:56:18 --> File loaded: /var/www/html/sports/application/mo
 DEBUG - 2018-10-26 16:56:18 --> File loaded: /var/www/html/sports/application/modules/templates/views/user_template_view.php
 INFO - 2018-10-26 16:56:18 --> Final output sent to browser
 DEBUG - 2018-10-26 16:56:18 --> Total execution time: 0.0044
+INFO - 2018-10-26 17:50:56 --> Config Class Initialized
+INFO - 2018-10-26 17:50:56 --> Hooks Class Initialized
+DEBUG - 2018-10-26 17:50:56 --> UTF-8 Support Enabled
+INFO - 2018-10-26 17:50:56 --> Utf8 Class Initialized
+INFO - 2018-10-26 17:50:56 --> URI Class Initialized
+INFO - 2018-10-26 17:50:56 --> Router Class Initialized
+INFO - 2018-10-26 17:50:56 --> Output Class Initialized
+INFO - 2018-10-26 17:50:56 --> Security Class Initialized
+DEBUG - 2018-10-26 17:50:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-10-26 17:50:56 --> Input Class Initialized
+INFO - 2018-10-26 17:50:56 --> Language Class Initialized
+INFO - 2018-10-26 17:50:56 --> Language Class Initialized
+INFO - 2018-10-26 17:50:56 --> Config Class Initialized
+INFO - 2018-10-26 17:50:56 --> Loader Class Initialized
+INFO - 2018-10-26 17:50:56 --> Helper loaded: url_helper
+INFO - 2018-10-26 17:50:56 --> Database Driver Class Initialized
+DEBUG - 2018-10-26 17:50:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-10-26 17:50:56 --> Session: Class initialized using 'files' driver.
+INFO - 2018-10-26 17:50:56 --> Helper loaded: form_helper
+INFO - 2018-10-26 17:50:56 --> Form Validation Class Initialized
+INFO - 2018-10-26 17:50:56 --> Email Class Initialized
+INFO - 2018-10-26 17:50:56 --> Controller Class Initialized
+DEBUG - 2018-10-26 17:50:56 --> Dashboard MX_Controller Initialized
+INFO - 2018-10-26 17:50:56 --> Upload Class Initialized
+INFO - 2018-10-26 17:50:56 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2018-10-26 17:50:56 --> Pagination Class Initialized
+INFO - 2018-10-26 17:50:56 --> Form Validation Class Initialized
+DEBUG - 2018-10-26 17:50:56 --> File loaded: /var/www/html/sports/application/controllers/../modules/templates/controllers/Templates.php
+DEBUG - 2018-10-26 17:50:56 --> Templates MX_Controller Initialized
+INFO - 2018-10-26 17:50:56 --> Helper loaded: my_helper
+INFO - 2018-10-26 17:50:56 --> Helper loaded: number_helper
+INFO - 2018-10-26 17:50:56 --> Helper loaded: text_helper
+DEBUG - 2018-10-26 17:50:56 --> File loaded: /var/www/html/sports/application/modules/dashboard/models/Dashboard_model.php
+DEBUG - 2018-10-26 17:50:56 --> File loaded: /var/www/html/sports/application/modules/dashboard/views/Dashboard_view.php
+DEBUG - 2018-10-26 17:50:56 --> File loaded: /var/www/html/sports/application/modules/templates/views/user_template_view.php
+INFO - 2018-10-26 17:50:56 --> Final output sent to browser
+DEBUG - 2018-10-26 17:50:56 --> Total execution time: 0.0609
+INFO - 2018-10-26 17:58:03 --> Config Class Initialized
+INFO - 2018-10-26 17:58:03 --> Hooks Class Initialized
+DEBUG - 2018-10-26 17:58:03 --> UTF-8 Support Enabled
+INFO - 2018-10-26 17:58:03 --> Utf8 Class Initialized
+INFO - 2018-10-26 17:58:03 --> URI Class Initialized
+INFO - 2018-10-26 17:58:03 --> Router Class Initialized
+INFO - 2018-10-26 17:58:03 --> Output Class Initialized
+INFO - 2018-10-26 17:58:03 --> Security Class Initialized
+DEBUG - 2018-10-26 17:58:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-10-26 17:58:03 --> Input Class Initialized
+INFO - 2018-10-26 17:58:03 --> Language Class Initialized
+INFO - 2018-10-26 17:58:03 --> Language Class Initialized
+INFO - 2018-10-26 17:58:03 --> Config Class Initialized
+INFO - 2018-10-26 17:58:03 --> Loader Class Initialized
+INFO - 2018-10-26 17:58:03 --> Helper loaded: url_helper
+INFO - 2018-10-26 17:58:03 --> Database Driver Class Initialized
+DEBUG - 2018-10-26 17:58:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-10-26 17:58:03 --> Session: Class initialized using 'files' driver.
+INFO - 2018-10-26 17:58:03 --> Helper loaded: form_helper
+INFO - 2018-10-26 17:58:03 --> Form Validation Class Initialized
+INFO - 2018-10-26 17:58:03 --> Email Class Initialized
+INFO - 2018-10-26 17:58:03 --> Controller Class Initialized
+DEBUG - 2018-10-26 17:58:03 --> Customer MX_Controller Initialized
+INFO - 2018-10-26 17:58:03 --> Upload Class Initialized
+INFO - 2018-10-26 17:58:03 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2018-10-26 17:58:03 --> Pagination Class Initialized
+INFO - 2018-10-26 17:58:03 --> Form Validation Class Initialized
+DEBUG - 2018-10-26 17:58:03 --> File loaded: /var/www/html/sports/application/controllers/../modules/templates/controllers/Templates.php
+DEBUG - 2018-10-26 17:58:03 --> Templates MX_Controller Initialized
+INFO - 2018-10-26 17:58:03 --> Helper loaded: my_helper
+INFO - 2018-10-26 17:58:03 --> Helper loaded: number_helper
+INFO - 2018-10-26 17:58:03 --> Helper loaded: text_helper
+DEBUG - 2018-10-26 17:58:03 --> File loaded: /var/www/html/sports/application/modules/customer/views/dashboard_v.php
+DEBUG - 2018-10-26 17:58:03 --> File loaded: /var/www/html/sports/application/modules/templates/views/user_template_view.php
+INFO - 2018-10-26 17:58:03 --> Final output sent to browser
+DEBUG - 2018-10-26 17:58:03 --> Total execution time: 0.0926
+INFO - 2018-10-26 17:58:06 --> Config Class Initialized
+INFO - 2018-10-26 17:58:06 --> Hooks Class Initialized
+DEBUG - 2018-10-26 17:58:06 --> UTF-8 Support Enabled
+INFO - 2018-10-26 17:58:06 --> Utf8 Class Initialized
+INFO - 2018-10-26 17:58:06 --> URI Class Initialized
+INFO - 2018-10-26 17:58:06 --> Router Class Initialized
+INFO - 2018-10-26 17:58:06 --> Output Class Initialized
+INFO - 2018-10-26 17:58:06 --> Security Class Initialized
+DEBUG - 2018-10-26 17:58:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-10-26 17:58:06 --> Input Class Initialized
+INFO - 2018-10-26 17:58:06 --> Language Class Initialized
+INFO - 2018-10-26 17:58:06 --> Language Class Initialized
+INFO - 2018-10-26 17:58:06 --> Config Class Initialized
+INFO - 2018-10-26 17:58:06 --> Loader Class Initialized
+INFO - 2018-10-26 17:58:06 --> Helper loaded: url_helper
+INFO - 2018-10-26 17:58:06 --> Database Driver Class Initialized
+DEBUG - 2018-10-26 17:58:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-10-26 17:58:06 --> Session: Class initialized using 'files' driver.
+INFO - 2018-10-26 17:58:06 --> Helper loaded: form_helper
+INFO - 2018-10-26 17:58:06 --> Form Validation Class Initialized
+INFO - 2018-10-26 17:58:06 --> Email Class Initialized
+INFO - 2018-10-26 17:58:06 --> Controller Class Initialized
+DEBUG - 2018-10-26 17:58:06 --> Customer MX_Controller Initialized
+INFO - 2018-10-26 17:58:06 --> Upload Class Initialized
+INFO - 2018-10-26 17:58:06 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2018-10-26 17:58:06 --> Pagination Class Initialized
+INFO - 2018-10-26 17:58:06 --> Form Validation Class Initialized
+DEBUG - 2018-10-26 17:58:06 --> File loaded: /var/www/html/sports/application/controllers/../modules/templates/controllers/Templates.php
+DEBUG - 2018-10-26 17:58:06 --> Templates MX_Controller Initialized
+INFO - 2018-10-26 17:58:06 --> Helper loaded: my_helper
+INFO - 2018-10-26 17:58:06 --> Helper loaded: number_helper
+INFO - 2018-10-26 17:58:06 --> Helper loaded: text_helper
+DEBUG - 2018-10-26 17:58:06 --> File loaded: /var/www/html/sports/application/modules/customer/views/dashboard_v.php
+DEBUG - 2018-10-26 17:58:06 --> File loaded: /var/www/html/sports/application/modules/templates/views/user_template_view.php
+INFO - 2018-10-26 17:58:06 --> Final output sent to browser
+DEBUG - 2018-10-26 17:58:06 --> Total execution time: 0.0068
+INFO - 2018-10-26 17:58:08 --> Config Class Initialized
+INFO - 2018-10-26 17:58:08 --> Hooks Class Initialized
+DEBUG - 2018-10-26 17:58:08 --> UTF-8 Support Enabled
+INFO - 2018-10-26 17:58:08 --> Utf8 Class Initialized
+INFO - 2018-10-26 17:58:08 --> URI Class Initialized
+INFO - 2018-10-26 17:58:08 --> Router Class Initialized
+INFO - 2018-10-26 17:58:08 --> Output Class Initialized
+INFO - 2018-10-26 17:58:08 --> Security Class Initialized
+DEBUG - 2018-10-26 17:58:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-10-26 17:58:08 --> Input Class Initialized
+INFO - 2018-10-26 17:58:08 --> Language Class Initialized
+INFO - 2018-10-26 17:58:08 --> Language Class Initialized
+INFO - 2018-10-26 17:58:08 --> Config Class Initialized
+INFO - 2018-10-26 17:58:08 --> Loader Class Initialized
+INFO - 2018-10-26 17:58:08 --> Helper loaded: url_helper
+INFO - 2018-10-26 17:58:08 --> Database Driver Class Initialized
+DEBUG - 2018-10-26 17:58:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-10-26 17:58:08 --> Session: Class initialized using 'files' driver.
+INFO - 2018-10-26 17:58:08 --> Helper loaded: form_helper
+INFO - 2018-10-26 17:58:08 --> Form Validation Class Initialized
+INFO - 2018-10-26 17:58:08 --> Email Class Initialized
+INFO - 2018-10-26 17:58:08 --> Controller Class Initialized
+DEBUG - 2018-10-26 17:58:08 --> Customer MX_Controller Initialized
+INFO - 2018-10-26 17:58:08 --> Upload Class Initialized
+INFO - 2018-10-26 17:58:08 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2018-10-26 17:58:08 --> Pagination Class Initialized
+INFO - 2018-10-26 17:58:08 --> Form Validation Class Initialized
+DEBUG - 2018-10-26 17:58:08 --> File loaded: /var/www/html/sports/application/controllers/../modules/templates/controllers/Templates.php
+DEBUG - 2018-10-26 17:58:08 --> Templates MX_Controller Initialized
+INFO - 2018-10-26 17:58:08 --> Helper loaded: my_helper
+INFO - 2018-10-26 17:58:08 --> Helper loaded: number_helper
+INFO - 2018-10-26 17:58:08 --> Helper loaded: text_helper
+DEBUG - 2018-10-26 17:58:08 --> File loaded: /var/www/html/sports/application/modules/customer/views/dashboard_v.php
+DEBUG - 2018-10-26 17:58:08 --> File loaded: /var/www/html/sports/application/modules/templates/views/user_template_view.php
+INFO - 2018-10-26 17:58:08 --> Final output sent to browser
+DEBUG - 2018-10-26 17:58:08 --> Total execution time: 0.0311
+INFO - 2018-10-26 18:04:20 --> Config Class Initialized
+INFO - 2018-10-26 18:04:20 --> Hooks Class Initialized
+DEBUG - 2018-10-26 18:04:20 --> UTF-8 Support Enabled
+INFO - 2018-10-26 18:04:20 --> Utf8 Class Initialized
+INFO - 2018-10-26 18:04:20 --> URI Class Initialized
+INFO - 2018-10-26 18:04:20 --> Router Class Initialized
+INFO - 2018-10-26 18:04:20 --> Output Class Initialized
+INFO - 2018-10-26 18:04:20 --> Security Class Initialized
+DEBUG - 2018-10-26 18:04:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-10-26 18:04:20 --> Input Class Initialized
+INFO - 2018-10-26 18:04:20 --> Language Class Initialized
+INFO - 2018-10-26 18:04:20 --> Language Class Initialized
+INFO - 2018-10-26 18:04:20 --> Config Class Initialized
+INFO - 2018-10-26 18:04:20 --> Loader Class Initialized
+INFO - 2018-10-26 18:04:20 --> Helper loaded: url_helper
+INFO - 2018-10-26 18:04:20 --> Database Driver Class Initialized
+DEBUG - 2018-10-26 18:04:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-10-26 18:04:20 --> Session: Class initialized using 'files' driver.
+INFO - 2018-10-26 18:04:20 --> Helper loaded: form_helper
+INFO - 2018-10-26 18:04:20 --> Form Validation Class Initialized
+INFO - 2018-10-26 18:04:20 --> Email Class Initialized
+INFO - 2018-10-26 18:04:20 --> Controller Class Initialized
+DEBUG - 2018-10-26 18:04:20 --> Customer MX_Controller Initialized
+INFO - 2018-10-26 18:04:20 --> Upload Class Initialized
+INFO - 2018-10-26 18:04:20 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2018-10-26 18:04:20 --> Pagination Class Initialized
+INFO - 2018-10-26 18:04:20 --> Form Validation Class Initialized
+DEBUG - 2018-10-26 18:04:20 --> File loaded: /var/www/html/sports/application/controllers/../modules/templates/controllers/Templates.php
+DEBUG - 2018-10-26 18:04:20 --> Templates MX_Controller Initialized
+INFO - 2018-10-26 18:04:20 --> Helper loaded: my_helper
+INFO - 2018-10-26 18:04:20 --> Helper loaded: number_helper
+INFO - 2018-10-26 18:04:20 --> Helper loaded: text_helper
+DEBUG - 2018-10-26 18:04:20 --> File loaded: /var/www/html/sports/application/modules/customer/views/dashboard_v.php
+DEBUG - 2018-10-26 18:04:20 --> File loaded: /var/www/html/sports/application/modules/templates/views/user_template_view.php
+INFO - 2018-10-26 18:04:20 --> Final output sent to browser
+DEBUG - 2018-10-26 18:04:20 --> Total execution time: 0.0124
+INFO - 2018-10-26 18:40:25 --> Config Class Initialized
+INFO - 2018-10-26 18:40:25 --> Hooks Class Initialized
+DEBUG - 2018-10-26 18:40:25 --> UTF-8 Support Enabled
+INFO - 2018-10-26 18:40:25 --> Utf8 Class Initialized
+INFO - 2018-10-26 18:40:25 --> URI Class Initialized
+INFO - 2018-10-26 18:40:25 --> Router Class Initialized
+INFO - 2018-10-26 18:40:25 --> Output Class Initialized
+INFO - 2018-10-26 18:40:25 --> Security Class Initialized
+DEBUG - 2018-10-26 18:40:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-10-26 18:40:25 --> Input Class Initialized
+INFO - 2018-10-26 18:40:25 --> Language Class Initialized
+INFO - 2018-10-26 18:40:25 --> Language Class Initialized
+INFO - 2018-10-26 18:40:25 --> Config Class Initialized
+INFO - 2018-10-26 18:40:25 --> Loader Class Initialized
+INFO - 2018-10-26 18:40:25 --> Helper loaded: url_helper
+INFO - 2018-10-26 18:40:25 --> Database Driver Class Initialized
+DEBUG - 2018-10-26 18:40:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-10-26 18:40:25 --> Session: Class initialized using 'files' driver.
+INFO - 2018-10-26 18:40:25 --> Helper loaded: form_helper
+INFO - 2018-10-26 18:40:25 --> Form Validation Class Initialized
+INFO - 2018-10-26 18:40:25 --> Email Class Initialized
+INFO - 2018-10-26 18:40:25 --> Controller Class Initialized
+DEBUG - 2018-10-26 18:40:25 --> Customer MX_Controller Initialized
+INFO - 2018-10-26 18:40:25 --> Upload Class Initialized
+INFO - 2018-10-26 18:40:25 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2018-10-26 18:40:25 --> Pagination Class Initialized
+INFO - 2018-10-26 18:40:25 --> Form Validation Class Initialized
+DEBUG - 2018-10-26 18:40:25 --> File loaded: /var/www/html/sports/application/controllers/../modules/templates/controllers/Templates.php
+DEBUG - 2018-10-26 18:40:25 --> Templates MX_Controller Initialized
+INFO - 2018-10-26 18:40:25 --> Helper loaded: my_helper
+INFO - 2018-10-26 18:40:25 --> Helper loaded: number_helper
+INFO - 2018-10-26 18:40:25 --> Helper loaded: text_helper
+DEBUG - 2018-10-26 18:40:25 --> File loaded: /var/www/html/sports/application/modules/customer/views/dashboard_v.php
+DEBUG - 2018-10-26 18:40:25 --> File loaded: /var/www/html/sports/application/modules/templates/views/user_template_view.php
+INFO - 2018-10-26 18:40:25 --> Final output sent to browser
+DEBUG - 2018-10-26 18:40:25 --> Total execution time: 0.0361
+INFO - 2018-10-26 18:40:30 --> Config Class Initialized
+INFO - 2018-10-26 18:40:30 --> Hooks Class Initialized
+DEBUG - 2018-10-26 18:40:30 --> UTF-8 Support Enabled
+INFO - 2018-10-26 18:40:30 --> Utf8 Class Initialized
+INFO - 2018-10-26 18:40:30 --> URI Class Initialized
+INFO - 2018-10-26 18:40:30 --> Router Class Initialized
+INFO - 2018-10-26 18:40:30 --> Output Class Initialized
+INFO - 2018-10-26 18:40:30 --> Security Class Initialized
+DEBUG - 2018-10-26 18:40:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-10-26 18:40:30 --> Input Class Initialized
+INFO - 2018-10-26 18:40:30 --> Language Class Initialized
+INFO - 2018-10-26 18:40:30 --> Language Class Initialized
+INFO - 2018-10-26 18:40:30 --> Config Class Initialized
+INFO - 2018-10-26 18:40:30 --> Loader Class Initialized
+INFO - 2018-10-26 18:40:30 --> Helper loaded: url_helper
+INFO - 2018-10-26 18:40:30 --> Database Driver Class Initialized
+DEBUG - 2018-10-26 18:40:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-10-26 18:40:30 --> Session: Class initialized using 'files' driver.
+INFO - 2018-10-26 18:40:30 --> Helper loaded: form_helper
+INFO - 2018-10-26 18:40:30 --> Form Validation Class Initialized
+INFO - 2018-10-26 18:40:30 --> Email Class Initialized
+INFO - 2018-10-26 18:40:30 --> Controller Class Initialized
+ERROR - 2018-10-26 18:40:30 --> 404 Page Not Found: ../modules/customer/controllers/Customer/become-league-owner
+INFO - 2018-10-26 18:40:33 --> Config Class Initialized
+INFO - 2018-10-26 18:40:33 --> Hooks Class Initialized
+DEBUG - 2018-10-26 18:40:33 --> UTF-8 Support Enabled
+INFO - 2018-10-26 18:40:33 --> Utf8 Class Initialized
+INFO - 2018-10-26 18:40:33 --> URI Class Initialized
+INFO - 2018-10-26 18:40:33 --> Router Class Initialized
+INFO - 2018-10-26 18:40:33 --> Output Class Initialized
+INFO - 2018-10-26 18:40:33 --> Security Class Initialized
+DEBUG - 2018-10-26 18:40:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-10-26 18:40:33 --> Input Class Initialized
+INFO - 2018-10-26 18:40:33 --> Language Class Initialized
+INFO - 2018-10-26 18:40:33 --> Language Class Initialized
+INFO - 2018-10-26 18:40:33 --> Config Class Initialized
+INFO - 2018-10-26 18:40:33 --> Loader Class Initialized
+INFO - 2018-10-26 18:40:33 --> Helper loaded: url_helper
+INFO - 2018-10-26 18:40:33 --> Database Driver Class Initialized
+DEBUG - 2018-10-26 18:40:33 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-10-26 18:40:33 --> Session: Class initialized using 'files' driver.
+INFO - 2018-10-26 18:40:33 --> Helper loaded: form_helper
+INFO - 2018-10-26 18:40:33 --> Form Validation Class Initialized
+INFO - 2018-10-26 18:40:33 --> Email Class Initialized
+INFO - 2018-10-26 18:40:33 --> Controller Class Initialized
+DEBUG - 2018-10-26 18:40:33 --> Customer MX_Controller Initialized
+INFO - 2018-10-26 18:40:33 --> Upload Class Initialized
+INFO - 2018-10-26 18:40:33 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2018-10-26 18:40:33 --> Pagination Class Initialized
+INFO - 2018-10-26 18:40:33 --> Form Validation Class Initialized
+DEBUG - 2018-10-26 18:40:33 --> File loaded: /var/www/html/sports/application/controllers/../modules/templates/controllers/Templates.php
+DEBUG - 2018-10-26 18:40:33 --> Templates MX_Controller Initialized
+INFO - 2018-10-26 18:40:33 --> Helper loaded: my_helper
+INFO - 2018-10-26 18:40:33 --> Helper loaded: number_helper
+INFO - 2018-10-26 18:40:33 --> Helper loaded: text_helper
+DEBUG - 2018-10-26 18:40:33 --> File loaded: /var/www/html/sports/application/modules/customer/views/dashboard_v.php
+DEBUG - 2018-10-26 18:40:33 --> File loaded: /var/www/html/sports/application/modules/templates/views/user_template_view.php
+INFO - 2018-10-26 18:40:33 --> Final output sent to browser
+DEBUG - 2018-10-26 18:40:33 --> Total execution time: 0.0459
+INFO - 2018-10-26 18:41:39 --> Config Class Initialized
+INFO - 2018-10-26 18:41:39 --> Hooks Class Initialized
+DEBUG - 2018-10-26 18:41:39 --> UTF-8 Support Enabled
+INFO - 2018-10-26 18:41:39 --> Utf8 Class Initialized
+INFO - 2018-10-26 18:41:39 --> URI Class Initialized
+INFO - 2018-10-26 18:41:39 --> Router Class Initialized
+INFO - 2018-10-26 18:41:39 --> Output Class Initialized
+INFO - 2018-10-26 18:41:39 --> Security Class Initialized
+DEBUG - 2018-10-26 18:41:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-10-26 18:41:39 --> Input Class Initialized
+INFO - 2018-10-26 18:41:39 --> Language Class Initialized
+INFO - 2018-10-26 18:41:39 --> Language Class Initialized
+INFO - 2018-10-26 18:41:39 --> Config Class Initialized
+INFO - 2018-10-26 18:41:39 --> Loader Class Initialized
+INFO - 2018-10-26 18:41:39 --> Helper loaded: url_helper
+INFO - 2018-10-26 18:41:39 --> Database Driver Class Initialized
+DEBUG - 2018-10-26 18:41:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-10-26 18:41:39 --> Session: Class initialized using 'files' driver.
+INFO - 2018-10-26 18:41:39 --> Helper loaded: form_helper
+INFO - 2018-10-26 18:41:39 --> Form Validation Class Initialized
+INFO - 2018-10-26 18:41:39 --> Email Class Initialized
+INFO - 2018-10-26 18:41:39 --> Controller Class Initialized
+DEBUG - 2018-10-26 18:41:39 --> Customer MX_Controller Initialized
+INFO - 2018-10-26 18:41:39 --> Upload Class Initialized
+INFO - 2018-10-26 18:41:39 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2018-10-26 18:41:39 --> Pagination Class Initialized
+INFO - 2018-10-26 18:41:39 --> Form Validation Class Initialized
+DEBUG - 2018-10-26 18:41:39 --> File loaded: /var/www/html/sports/application/controllers/../modules/templates/controllers/Templates.php
+DEBUG - 2018-10-26 18:41:39 --> Templates MX_Controller Initialized
+INFO - 2018-10-26 18:41:39 --> Helper loaded: my_helper
+INFO - 2018-10-26 18:41:39 --> Helper loaded: number_helper
+INFO - 2018-10-26 18:41:39 --> Helper loaded: text_helper
+DEBUG - 2018-10-26 18:41:39 --> File loaded: /var/www/html/sports/application/modules/customer/views/dashboard_v.php
+DEBUG - 2018-10-26 18:41:39 --> File loaded: /var/www/html/sports/application/modules/templates/views/user_template_view.php
+INFO - 2018-10-26 18:41:39 --> Final output sent to browser
+DEBUG - 2018-10-26 18:41:39 --> Total execution time: 0.0271
+INFO - 2018-10-26 18:41:46 --> Config Class Initialized
+INFO - 2018-10-26 18:41:46 --> Hooks Class Initialized
+DEBUG - 2018-10-26 18:41:46 --> UTF-8 Support Enabled
+INFO - 2018-10-26 18:41:46 --> Utf8 Class Initialized
+INFO - 2018-10-26 18:41:46 --> URI Class Initialized
+INFO - 2018-10-26 18:41:46 --> Router Class Initialized
+INFO - 2018-10-26 18:41:46 --> Output Class Initialized
+INFO - 2018-10-26 18:41:46 --> Security Class Initialized
+DEBUG - 2018-10-26 18:41:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-10-26 18:41:46 --> Input Class Initialized
+INFO - 2018-10-26 18:41:46 --> Language Class Initialized
+INFO - 2018-10-26 18:41:46 --> Language Class Initialized
+INFO - 2018-10-26 18:41:46 --> Config Class Initialized
+INFO - 2018-10-26 18:41:46 --> Loader Class Initialized
+INFO - 2018-10-26 18:41:46 --> Helper loaded: url_helper
+INFO - 2018-10-26 18:41:46 --> Database Driver Class Initialized
+DEBUG - 2018-10-26 18:41:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-10-26 18:41:46 --> Session: Class initialized using 'files' driver.
+INFO - 2018-10-26 18:41:46 --> Helper loaded: form_helper
+INFO - 2018-10-26 18:41:46 --> Form Validation Class Initialized
+INFO - 2018-10-26 18:41:46 --> Email Class Initialized
+INFO - 2018-10-26 18:41:46 --> Controller Class Initialized
+ERROR - 2018-10-26 18:41:46 --> 404 Page Not Found: ../modules/customer/controllers/Customer/become-league-owner
+INFO - 2018-10-26 18:43:04 --> Config Class Initialized
+INFO - 2018-10-26 18:43:04 --> Hooks Class Initialized
+DEBUG - 2018-10-26 18:43:04 --> UTF-8 Support Enabled
+INFO - 2018-10-26 18:43:04 --> Utf8 Class Initialized
+INFO - 2018-10-26 18:43:04 --> URI Class Initialized
+INFO - 2018-10-26 18:43:04 --> Router Class Initialized
+INFO - 2018-10-26 18:43:04 --> Output Class Initialized
+INFO - 2018-10-26 18:43:04 --> Security Class Initialized
+DEBUG - 2018-10-26 18:43:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-10-26 18:43:04 --> Input Class Initialized
+INFO - 2018-10-26 18:43:04 --> Language Class Initialized
+INFO - 2018-10-26 18:43:04 --> Language Class Initialized
+INFO - 2018-10-26 18:43:04 --> Config Class Initialized
+INFO - 2018-10-26 18:43:04 --> Loader Class Initialized
+INFO - 2018-10-26 18:43:04 --> Helper loaded: url_helper
+INFO - 2018-10-26 18:43:04 --> Database Driver Class Initialized
+DEBUG - 2018-10-26 18:43:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-10-26 18:43:04 --> Session: Class initialized using 'files' driver.
+INFO - 2018-10-26 18:43:04 --> Helper loaded: form_helper
+INFO - 2018-10-26 18:43:04 --> Form Validation Class Initialized
+INFO - 2018-10-26 18:43:04 --> Email Class Initialized
+INFO - 2018-10-26 18:43:04 --> Controller Class Initialized
+ERROR - 2018-10-26 18:43:04 --> 404 Page Not Found: ../modules/customer/controllers/Customer/become-league-owner
+INFO - 2018-10-26 18:43:05 --> Config Class Initialized
+INFO - 2018-10-26 18:43:05 --> Hooks Class Initialized
+DEBUG - 2018-10-26 18:43:05 --> UTF-8 Support Enabled
+INFO - 2018-10-26 18:43:05 --> Utf8 Class Initialized
+INFO - 2018-10-26 18:43:05 --> URI Class Initialized
+INFO - 2018-10-26 18:43:05 --> Router Class Initialized
+INFO - 2018-10-26 18:43:05 --> Output Class Initialized
+INFO - 2018-10-26 18:43:05 --> Security Class Initialized
+DEBUG - 2018-10-26 18:43:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-10-26 18:43:05 --> Input Class Initialized
+INFO - 2018-10-26 18:43:05 --> Language Class Initialized
+INFO - 2018-10-26 18:43:05 --> Language Class Initialized
+INFO - 2018-10-26 18:43:05 --> Config Class Initialized
+INFO - 2018-10-26 18:43:05 --> Loader Class Initialized
+INFO - 2018-10-26 18:43:05 --> Helper loaded: url_helper
+INFO - 2018-10-26 18:43:05 --> Database Driver Class Initialized
+DEBUG - 2018-10-26 18:43:05 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-10-26 18:43:05 --> Session: Class initialized using 'files' driver.
+INFO - 2018-10-26 18:43:05 --> Helper loaded: form_helper
+INFO - 2018-10-26 18:43:05 --> Form Validation Class Initialized
+INFO - 2018-10-26 18:43:05 --> Email Class Initialized
+INFO - 2018-10-26 18:43:05 --> Controller Class Initialized
+ERROR - 2018-10-26 18:43:05 --> 404 Page Not Found: ../modules/customer/controllers/Customer/become-league-owner
+INFO - 2018-10-26 18:43:06 --> Config Class Initialized
+INFO - 2018-10-26 18:43:06 --> Hooks Class Initialized
+DEBUG - 2018-10-26 18:43:06 --> UTF-8 Support Enabled
+INFO - 2018-10-26 18:43:06 --> Utf8 Class Initialized
+INFO - 2018-10-26 18:43:06 --> URI Class Initialized
+INFO - 2018-10-26 18:43:06 --> Router Class Initialized
+INFO - 2018-10-26 18:43:06 --> Output Class Initialized
+INFO - 2018-10-26 18:43:06 --> Security Class Initialized
+DEBUG - 2018-10-26 18:43:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-10-26 18:43:06 --> Input Class Initialized
+INFO - 2018-10-26 18:43:06 --> Language Class Initialized
+INFO - 2018-10-26 18:43:06 --> Language Class Initialized
+INFO - 2018-10-26 18:43:06 --> Config Class Initialized
+INFO - 2018-10-26 18:43:06 --> Loader Class Initialized
+INFO - 2018-10-26 18:43:06 --> Helper loaded: url_helper
+INFO - 2018-10-26 18:43:06 --> Database Driver Class Initialized
+DEBUG - 2018-10-26 18:43:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-10-26 18:43:06 --> Session: Class initialized using 'files' driver.
+INFO - 2018-10-26 18:43:06 --> Helper loaded: form_helper
+INFO - 2018-10-26 18:43:06 --> Form Validation Class Initialized
+INFO - 2018-10-26 18:43:06 --> Email Class Initialized
+INFO - 2018-10-26 18:43:06 --> Controller Class Initialized
+DEBUG - 2018-10-26 18:43:06 --> Customer MX_Controller Initialized
+INFO - 2018-10-26 18:43:06 --> Upload Class Initialized
+INFO - 2018-10-26 18:43:06 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2018-10-26 18:43:06 --> Pagination Class Initialized
+INFO - 2018-10-26 18:43:06 --> Form Validation Class Initialized
+DEBUG - 2018-10-26 18:43:06 --> File loaded: /var/www/html/sports/application/controllers/../modules/templates/controllers/Templates.php
+DEBUG - 2018-10-26 18:43:06 --> Templates MX_Controller Initialized
+INFO - 2018-10-26 18:43:06 --> Helper loaded: my_helper
+INFO - 2018-10-26 18:43:06 --> Helper loaded: number_helper
+INFO - 2018-10-26 18:43:06 --> Helper loaded: text_helper
+DEBUG - 2018-10-26 18:43:06 --> File loaded: /var/www/html/sports/application/modules/customer/views/dashboard_v.php
+DEBUG - 2018-10-26 18:43:06 --> File loaded: /var/www/html/sports/application/modules/templates/views/user_template_view.php
+INFO - 2018-10-26 18:43:06 --> Final output sent to browser
+DEBUG - 2018-10-26 18:43:06 --> Total execution time: 0.0206
+INFO - 2018-10-26 18:43:10 --> Config Class Initialized
+INFO - 2018-10-26 18:43:10 --> Hooks Class Initialized
+DEBUG - 2018-10-26 18:43:10 --> UTF-8 Support Enabled
+INFO - 2018-10-26 18:43:10 --> Utf8 Class Initialized
+INFO - 2018-10-26 18:43:10 --> URI Class Initialized
+INFO - 2018-10-26 18:43:10 --> Router Class Initialized
+INFO - 2018-10-26 18:43:10 --> Output Class Initialized
+INFO - 2018-10-26 18:43:10 --> Security Class Initialized
+DEBUG - 2018-10-26 18:43:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-10-26 18:43:10 --> Input Class Initialized
+INFO - 2018-10-26 18:43:10 --> Language Class Initialized
+INFO - 2018-10-26 18:43:10 --> Language Class Initialized
+INFO - 2018-10-26 18:43:10 --> Config Class Initialized
+INFO - 2018-10-26 18:43:10 --> Loader Class Initialized
+INFO - 2018-10-26 18:43:10 --> Helper loaded: url_helper
+INFO - 2018-10-26 18:43:10 --> Database Driver Class Initialized
+DEBUG - 2018-10-26 18:43:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-10-26 18:43:10 --> Session: Class initialized using 'files' driver.
+INFO - 2018-10-26 18:43:10 --> Helper loaded: form_helper
+INFO - 2018-10-26 18:43:10 --> Form Validation Class Initialized
+INFO - 2018-10-26 18:43:10 --> Email Class Initialized
+INFO - 2018-10-26 18:43:10 --> Controller Class Initialized
+DEBUG - 2018-10-26 18:43:10 --> Customer MX_Controller Initialized
+INFO - 2018-10-26 18:43:10 --> Upload Class Initialized
+INFO - 2018-10-26 18:43:10 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2018-10-26 18:43:10 --> Pagination Class Initialized
+INFO - 2018-10-26 18:43:10 --> Form Validation Class Initialized
+DEBUG - 2018-10-26 18:43:10 --> File loaded: /var/www/html/sports/application/controllers/../modules/templates/controllers/Templates.php
+DEBUG - 2018-10-26 18:43:10 --> Templates MX_Controller Initialized
+INFO - 2018-10-26 18:43:10 --> Helper loaded: my_helper
+INFO - 2018-10-26 18:43:10 --> Helper loaded: number_helper
+INFO - 2018-10-26 18:43:10 --> Helper loaded: text_helper
+DEBUG - 2018-10-26 18:43:10 --> File loaded: /var/www/html/sports/application/modules/customer/views/dashboard_v.php
+DEBUG - 2018-10-26 18:43:10 --> File loaded: /var/www/html/sports/application/modules/templates/views/user_template_view.php
+INFO - 2018-10-26 18:43:10 --> Final output sent to browser
+DEBUG - 2018-10-26 18:43:10 --> Total execution time: 0.0051
+INFO - 2018-10-26 18:43:16 --> Config Class Initialized
+INFO - 2018-10-26 18:43:16 --> Hooks Class Initialized
+DEBUG - 2018-10-26 18:43:16 --> UTF-8 Support Enabled
+INFO - 2018-10-26 18:43:16 --> Utf8 Class Initialized
+INFO - 2018-10-26 18:43:16 --> URI Class Initialized
+INFO - 2018-10-26 18:43:16 --> Router Class Initialized
+INFO - 2018-10-26 18:43:16 --> Output Class Initialized
+INFO - 2018-10-26 18:43:16 --> Security Class Initialized
+DEBUG - 2018-10-26 18:43:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-10-26 18:43:16 --> Input Class Initialized
+INFO - 2018-10-26 18:43:16 --> Language Class Initialized
+INFO - 2018-10-26 18:43:16 --> Language Class Initialized
+INFO - 2018-10-26 18:43:16 --> Config Class Initialized
+INFO - 2018-10-26 18:43:16 --> Loader Class Initialized
+INFO - 2018-10-26 18:43:16 --> Helper loaded: url_helper
+INFO - 2018-10-26 18:43:16 --> Database Driver Class Initialized
+DEBUG - 2018-10-26 18:43:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-10-26 18:43:16 --> Session: Class initialized using 'files' driver.
+INFO - 2018-10-26 18:43:16 --> Helper loaded: form_helper
+INFO - 2018-10-26 18:43:16 --> Form Validation Class Initialized
+INFO - 2018-10-26 18:43:16 --> Email Class Initialized
+INFO - 2018-10-26 18:43:16 --> Controller Class Initialized
+ERROR - 2018-10-26 18:43:16 --> 404 Page Not Found: ../modules/customer/controllers/Customer/become-league-owner
+INFO - 2018-10-26 18:43:46 --> Config Class Initialized
+INFO - 2018-10-26 18:43:46 --> Hooks Class Initialized
+DEBUG - 2018-10-26 18:43:46 --> UTF-8 Support Enabled
+INFO - 2018-10-26 18:43:46 --> Utf8 Class Initialized
+INFO - 2018-10-26 18:43:46 --> URI Class Initialized
+INFO - 2018-10-26 18:43:46 --> Router Class Initialized
+INFO - 2018-10-26 18:43:46 --> Output Class Initialized
+INFO - 2018-10-26 18:43:46 --> Security Class Initialized
+DEBUG - 2018-10-26 18:43:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-10-26 18:43:46 --> Input Class Initialized
+INFO - 2018-10-26 18:43:46 --> Language Class Initialized
+INFO - 2018-10-26 18:43:46 --> Language Class Initialized
+INFO - 2018-10-26 18:43:46 --> Config Class Initialized
+INFO - 2018-10-26 18:43:46 --> Loader Class Initialized
+INFO - 2018-10-26 18:43:46 --> Helper loaded: url_helper
+INFO - 2018-10-26 18:43:46 --> Database Driver Class Initialized
+DEBUG - 2018-10-26 18:43:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-10-26 18:43:46 --> Session: Class initialized using 'files' driver.
+INFO - 2018-10-26 18:43:46 --> Helper loaded: form_helper
+INFO - 2018-10-26 18:43:46 --> Form Validation Class Initialized
+INFO - 2018-10-26 18:43:46 --> Email Class Initialized
+INFO - 2018-10-26 18:43:46 --> Controller Class Initialized
+DEBUG - 2018-10-26 18:43:46 --> Customer MX_Controller Initialized
+INFO - 2018-10-26 18:43:46 --> Upload Class Initialized
+INFO - 2018-10-26 18:43:46 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2018-10-26 18:43:46 --> Pagination Class Initialized
+INFO - 2018-10-26 18:43:46 --> Form Validation Class Initialized
+DEBUG - 2018-10-26 18:43:46 --> File loaded: /var/www/html/sports/application/controllers/../modules/templates/controllers/Templates.php
+DEBUG - 2018-10-26 18:43:46 --> Templates MX_Controller Initialized
+INFO - 2018-10-26 18:43:46 --> Helper loaded: my_helper
+INFO - 2018-10-26 18:43:46 --> Helper loaded: number_helper
+INFO - 2018-10-26 18:43:46 --> Helper loaded: text_helper
+ERROR - 2018-10-26 18:43:46 --> Severity: Notice --> Undefined property: CI::$customer_m /var/www/html/sports/application/third_party/MX/Controller.php 59
+ERROR - 2018-10-26 18:43:46 --> Severity: Error --> Call to a member function get_user_data_by_id() on null /var/www/html/sports/application/modules/customer/controllers/Customer.php 33
+INFO - 2018-10-26 18:45:51 --> Config Class Initialized
+INFO - 2018-10-26 18:45:51 --> Hooks Class Initialized
+DEBUG - 2018-10-26 18:45:51 --> UTF-8 Support Enabled
+INFO - 2018-10-26 18:45:51 --> Utf8 Class Initialized
+INFO - 2018-10-26 18:45:51 --> URI Class Initialized
+INFO - 2018-10-26 18:45:51 --> Router Class Initialized
+INFO - 2018-10-26 18:45:51 --> Output Class Initialized
+INFO - 2018-10-26 18:45:51 --> Security Class Initialized
+DEBUG - 2018-10-26 18:45:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-10-26 18:45:51 --> Input Class Initialized
+INFO - 2018-10-26 18:45:51 --> Language Class Initialized
+INFO - 2018-10-26 18:45:51 --> Language Class Initialized
+INFO - 2018-10-26 18:45:51 --> Config Class Initialized
+INFO - 2018-10-26 18:45:51 --> Loader Class Initialized
+INFO - 2018-10-26 18:45:51 --> Helper loaded: url_helper
+INFO - 2018-10-26 18:45:51 --> Database Driver Class Initialized
+DEBUG - 2018-10-26 18:45:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-10-26 18:45:51 --> Session: Class initialized using 'files' driver.
+INFO - 2018-10-26 18:45:51 --> Helper loaded: form_helper
+INFO - 2018-10-26 18:45:51 --> Form Validation Class Initialized
+INFO - 2018-10-26 18:45:51 --> Email Class Initialized
+INFO - 2018-10-26 18:45:51 --> Controller Class Initialized
+DEBUG - 2018-10-26 18:45:51 --> Customer MX_Controller Initialized
+INFO - 2018-10-26 18:45:51 --> Upload Class Initialized
+INFO - 2018-10-26 18:45:51 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2018-10-26 18:45:51 --> Pagination Class Initialized
+INFO - 2018-10-26 18:45:51 --> Form Validation Class Initialized
+DEBUG - 2018-10-26 18:45:51 --> File loaded: /var/www/html/sports/application/controllers/../modules/templates/controllers/Templates.php
+DEBUG - 2018-10-26 18:45:51 --> Templates MX_Controller Initialized
+INFO - 2018-10-26 18:45:51 --> Helper loaded: my_helper
+INFO - 2018-10-26 18:45:51 --> Helper loaded: number_helper
+INFO - 2018-10-26 18:45:51 --> Helper loaded: text_helper
+DEBUG - 2018-10-26 18:45:51 --> File loaded: /var/www/html/sports/application/modules/customer/models/Customer_m.php
+DEBUG - 2018-10-26 18:45:51 --> File loaded: /var/www/html/sports/application/modules/customer/views/become_league_owner_view.php
+DEBUG - 2018-10-26 18:45:51 --> File loaded: /var/www/html/sports/application/modules/templates/views/user_template_view.php
+INFO - 2018-10-26 18:45:51 --> Final output sent to browser
+DEBUG - 2018-10-26 18:45:51 --> Total execution time: 0.0066
+INFO - 2018-10-26 19:07:17 --> Config Class Initialized
+INFO - 2018-10-26 19:07:17 --> Hooks Class Initialized
+DEBUG - 2018-10-26 19:07:17 --> UTF-8 Support Enabled
+INFO - 2018-10-26 19:07:17 --> Utf8 Class Initialized
+INFO - 2018-10-26 19:07:17 --> URI Class Initialized
+INFO - 2018-10-26 19:07:17 --> Router Class Initialized
+INFO - 2018-10-26 19:07:17 --> Output Class Initialized
+INFO - 2018-10-26 19:07:17 --> Security Class Initialized
+DEBUG - 2018-10-26 19:07:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-10-26 19:07:17 --> Input Class Initialized
+INFO - 2018-10-26 19:07:17 --> Language Class Initialized
+INFO - 2018-10-26 19:07:17 --> Language Class Initialized
+INFO - 2018-10-26 19:07:17 --> Config Class Initialized
+INFO - 2018-10-26 19:07:17 --> Loader Class Initialized
+INFO - 2018-10-26 19:07:17 --> Helper loaded: url_helper
+INFO - 2018-10-26 19:07:17 --> Database Driver Class Initialized
+DEBUG - 2018-10-26 19:07:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-10-26 19:07:17 --> Session: Class initialized using 'files' driver.
+INFO - 2018-10-26 19:07:17 --> Helper loaded: form_helper
+INFO - 2018-10-26 19:07:17 --> Form Validation Class Initialized
+INFO - 2018-10-26 19:07:17 --> Email Class Initialized
+INFO - 2018-10-26 19:07:17 --> Controller Class Initialized
+DEBUG - 2018-10-26 19:07:17 --> Login MX_Controller Initialized
+INFO - 2018-10-26 19:07:17 --> Upload Class Initialized
+INFO - 2018-10-26 19:07:17 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2018-10-26 19:07:17 --> Pagination Class Initialized
+INFO - 2018-10-26 19:07:17 --> Form Validation Class Initialized
+DEBUG - 2018-10-26 19:07:17 --> File loaded: /var/www/html/sports/application/controllers/../modules/templates/controllers/Templates.php
+DEBUG - 2018-10-26 19:07:17 --> Templates MX_Controller Initialized
+INFO - 2018-10-26 19:07:17 --> Helper loaded: my_helper
+INFO - 2018-10-26 19:07:17 --> Helper loaded: number_helper
+INFO - 2018-10-26 19:07:17 --> Helper loaded: text_helper
+DEBUG - 2018-10-26 19:07:17 --> File loaded: /var/www/html/sports/application/modules/login/models/Login_model.php
+INFO - 2018-10-26 19:07:17 --> Config Class Initialized
+INFO - 2018-10-26 19:07:17 --> Hooks Class Initialized
+DEBUG - 2018-10-26 19:07:17 --> UTF-8 Support Enabled
+INFO - 2018-10-26 19:07:17 --> Utf8 Class Initialized
+INFO - 2018-10-26 19:07:17 --> URI Class Initialized
+INFO - 2018-10-26 19:07:17 --> Router Class Initialized
+INFO - 2018-10-26 19:07:17 --> Output Class Initialized
+INFO - 2018-10-26 19:07:17 --> Security Class Initialized
+DEBUG - 2018-10-26 19:07:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-10-26 19:07:17 --> Input Class Initialized
+INFO - 2018-10-26 19:07:17 --> Language Class Initialized
+INFO - 2018-10-26 19:07:17 --> Language Class Initialized
+INFO - 2018-10-26 19:07:17 --> Config Class Initialized
+INFO - 2018-10-26 19:07:17 --> Loader Class Initialized
+INFO - 2018-10-26 19:07:17 --> Helper loaded: url_helper
+INFO - 2018-10-26 19:07:17 --> Database Driver Class Initialized
+DEBUG - 2018-10-26 19:07:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-10-26 19:07:17 --> Session: Class initialized using 'files' driver.
+INFO - 2018-10-26 19:07:17 --> Helper loaded: form_helper
+INFO - 2018-10-26 19:07:17 --> Form Validation Class Initialized
+INFO - 2018-10-26 19:07:17 --> Email Class Initialized
+INFO - 2018-10-26 19:07:17 --> Controller Class Initialized
+DEBUG - 2018-10-26 19:07:17 --> Login MX_Controller Initialized
+INFO - 2018-10-26 19:07:17 --> Upload Class Initialized
+INFO - 2018-10-26 19:07:17 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2018-10-26 19:07:17 --> Pagination Class Initialized
+INFO - 2018-10-26 19:07:17 --> Form Validation Class Initialized
+DEBUG - 2018-10-26 19:07:17 --> File loaded: /var/www/html/sports/application/controllers/../modules/templates/controllers/Templates.php
+DEBUG - 2018-10-26 19:07:17 --> Templates MX_Controller Initialized
+INFO - 2018-10-26 19:07:17 --> Helper loaded: my_helper
+INFO - 2018-10-26 19:07:17 --> Helper loaded: number_helper
+INFO - 2018-10-26 19:07:17 --> Helper loaded: text_helper
+DEBUG - 2018-10-26 19:07:17 --> File loaded: /var/www/html/sports/application/modules/login/models/Login_model.php
+DEBUG - 2018-10-26 19:07:17 --> File loaded: /var/www/html/sports/application/modules/templates/views/error_v.php
+DEBUG - 2018-10-26 19:07:17 --> File loaded: /var/www/html/sports/application/modules/login/views/Login_view.php
+DEBUG - 2018-10-26 19:07:17 --> File loaded: /var/www/html/sports/application/modules/templates/views/template_v.php
+INFO - 2018-10-26 19:07:17 --> Final output sent to browser
+DEBUG - 2018-10-26 19:07:17 --> Total execution time: 0.0055
+INFO - 2018-10-26 19:07:36 --> Config Class Initialized
+INFO - 2018-10-26 19:07:36 --> Hooks Class Initialized
+DEBUG - 2018-10-26 19:07:36 --> UTF-8 Support Enabled
+INFO - 2018-10-26 19:07:36 --> Utf8 Class Initialized
+INFO - 2018-10-26 19:07:36 --> URI Class Initialized
+INFO - 2018-10-26 19:07:36 --> Router Class Initialized
+INFO - 2018-10-26 19:07:36 --> Output Class Initialized
+INFO - 2018-10-26 19:07:36 --> Security Class Initialized
+DEBUG - 2018-10-26 19:07:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-10-26 19:07:36 --> Input Class Initialized
+INFO - 2018-10-26 19:07:36 --> Language Class Initialized
+INFO - 2018-10-26 19:07:36 --> Language Class Initialized
+INFO - 2018-10-26 19:07:36 --> Config Class Initialized
+INFO - 2018-10-26 19:07:36 --> Loader Class Initialized
+INFO - 2018-10-26 19:07:36 --> Helper loaded: url_helper
+INFO - 2018-10-26 19:07:36 --> Database Driver Class Initialized
+DEBUG - 2018-10-26 19:07:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-10-26 19:07:36 --> Session: Class initialized using 'files' driver.
+INFO - 2018-10-26 19:07:36 --> Helper loaded: form_helper
+INFO - 2018-10-26 19:07:36 --> Form Validation Class Initialized
+INFO - 2018-10-26 19:07:36 --> Email Class Initialized
+INFO - 2018-10-26 19:07:36 --> Controller Class Initialized
+DEBUG - 2018-10-26 19:07:36 --> Login MX_Controller Initialized
+INFO - 2018-10-26 19:07:36 --> Upload Class Initialized
+INFO - 2018-10-26 19:07:36 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2018-10-26 19:07:36 --> Pagination Class Initialized
+INFO - 2018-10-26 19:07:36 --> Form Validation Class Initialized
+DEBUG - 2018-10-26 19:07:36 --> File loaded: /var/www/html/sports/application/controllers/../modules/templates/controllers/Templates.php
+DEBUG - 2018-10-26 19:07:36 --> Templates MX_Controller Initialized
+INFO - 2018-10-26 19:07:36 --> Helper loaded: my_helper
+INFO - 2018-10-26 19:07:36 --> Helper loaded: number_helper
+INFO - 2018-10-26 19:07:36 --> Helper loaded: text_helper
+DEBUG - 2018-10-26 19:07:36 --> File loaded: /var/www/html/sports/application/modules/login/models/Login_model.php
+DEBUG - 2018-10-26 19:07:36 --> File loaded: /var/www/html/sports/application/modules/templates/views/error_v.php
+DEBUG - 2018-10-26 19:07:36 --> File loaded: /var/www/html/sports/application/modules/login/views/Login_view.php
+DEBUG - 2018-10-26 19:07:36 --> File loaded: /var/www/html/sports/application/modules/templates/views/template_v.php
+INFO - 2018-10-26 19:07:36 --> Final output sent to browser
+DEBUG - 2018-10-26 19:07:36 --> Total execution time: 0.0071
+INFO - 2018-10-26 19:08:03 --> Config Class Initialized
+INFO - 2018-10-26 19:08:03 --> Hooks Class Initialized
+DEBUG - 2018-10-26 19:08:03 --> UTF-8 Support Enabled
+INFO - 2018-10-26 19:08:03 --> Utf8 Class Initialized
+INFO - 2018-10-26 19:08:03 --> URI Class Initialized
+INFO - 2018-10-26 19:08:03 --> Router Class Initialized
+INFO - 2018-10-26 19:08:03 --> Output Class Initialized
+INFO - 2018-10-26 19:08:03 --> Security Class Initialized
+DEBUG - 2018-10-26 19:08:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-10-26 19:08:03 --> Input Class Initialized
+INFO - 2018-10-26 19:08:03 --> Language Class Initialized
+INFO - 2018-10-26 19:08:03 --> Language Class Initialized
+INFO - 2018-10-26 19:08:03 --> Config Class Initialized
+INFO - 2018-10-26 19:08:03 --> Loader Class Initialized
+INFO - 2018-10-26 19:08:03 --> Helper loaded: url_helper
+INFO - 2018-10-26 19:08:03 --> Database Driver Class Initialized
+DEBUG - 2018-10-26 19:08:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-10-26 19:08:03 --> Session: Class initialized using 'files' driver.
+INFO - 2018-10-26 19:08:03 --> Helper loaded: form_helper
+INFO - 2018-10-26 19:08:03 --> Form Validation Class Initialized
+INFO - 2018-10-26 19:08:03 --> Email Class Initialized
+INFO - 2018-10-26 19:08:03 --> Controller Class Initialized
+DEBUG - 2018-10-26 19:08:03 --> Login MX_Controller Initialized
+INFO - 2018-10-26 19:08:03 --> Upload Class Initialized
+INFO - 2018-10-26 19:08:03 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2018-10-26 19:08:03 --> Pagination Class Initialized
+INFO - 2018-10-26 19:08:03 --> Form Validation Class Initialized
+DEBUG - 2018-10-26 19:08:03 --> File loaded: /var/www/html/sports/application/controllers/../modules/templates/controllers/Templates.php
+DEBUG - 2018-10-26 19:08:03 --> Templates MX_Controller Initialized
+INFO - 2018-10-26 19:08:03 --> Helper loaded: my_helper
+INFO - 2018-10-26 19:08:03 --> Helper loaded: number_helper
+INFO - 2018-10-26 19:08:03 --> Helper loaded: text_helper
+DEBUG - 2018-10-26 19:08:03 --> File loaded: /var/www/html/sports/application/modules/login/models/Login_model.php
+INFO - 2018-10-26 19:08:03 --> Config Class Initialized
+INFO - 2018-10-26 19:08:03 --> Hooks Class Initialized
+DEBUG - 2018-10-26 19:08:03 --> UTF-8 Support Enabled
+INFO - 2018-10-26 19:08:03 --> Utf8 Class Initialized
+INFO - 2018-10-26 19:08:03 --> URI Class Initialized
+INFO - 2018-10-26 19:08:03 --> Router Class Initialized
+INFO - 2018-10-26 19:08:03 --> Output Class Initialized
+INFO - 2018-10-26 19:08:03 --> Security Class Initialized
+DEBUG - 2018-10-26 19:08:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-10-26 19:08:03 --> Input Class Initialized
+INFO - 2018-10-26 19:08:03 --> Language Class Initialized
+INFO - 2018-10-26 19:08:03 --> Language Class Initialized
+INFO - 2018-10-26 19:08:03 --> Config Class Initialized
+INFO - 2018-10-26 19:08:03 --> Loader Class Initialized
+INFO - 2018-10-26 19:08:03 --> Helper loaded: url_helper
+INFO - 2018-10-26 19:08:03 --> Database Driver Class Initialized
+DEBUG - 2018-10-26 19:08:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-10-26 19:08:03 --> Session: Class initialized using 'files' driver.
+INFO - 2018-10-26 19:08:03 --> Helper loaded: form_helper
+INFO - 2018-10-26 19:08:03 --> Form Validation Class Initialized
+INFO - 2018-10-26 19:08:03 --> Email Class Initialized
+INFO - 2018-10-26 19:08:03 --> Controller Class Initialized
+DEBUG - 2018-10-26 19:08:03 --> Customer MX_Controller Initialized
+INFO - 2018-10-26 19:08:03 --> Upload Class Initialized
+INFO - 2018-10-26 19:08:03 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2018-10-26 19:08:03 --> Pagination Class Initialized
+INFO - 2018-10-26 19:08:03 --> Form Validation Class Initialized
+DEBUG - 2018-10-26 19:08:03 --> File loaded: /var/www/html/sports/application/controllers/../modules/templates/controllers/Templates.php
+DEBUG - 2018-10-26 19:08:03 --> Templates MX_Controller Initialized
+INFO - 2018-10-26 19:08:03 --> Helper loaded: my_helper
+INFO - 2018-10-26 19:08:03 --> Helper loaded: number_helper
+INFO - 2018-10-26 19:08:03 --> Helper loaded: text_helper
+DEBUG - 2018-10-26 19:08:03 --> File loaded: /var/www/html/sports/application/modules/customer/models/Customer_m.php
+DEBUG - 2018-10-26 19:08:03 --> File loaded: /var/www/html/sports/application/modules/customer/views/dashboard_v.php
+DEBUG - 2018-10-26 19:08:03 --> File loaded: /var/www/html/sports/application/modules/templates/views/user_template_view.php
+INFO - 2018-10-26 19:08:03 --> Final output sent to browser
+DEBUG - 2018-10-26 19:08:03 --> Total execution time: 0.0041
+INFO - 2018-10-26 19:08:07 --> Config Class Initialized
+INFO - 2018-10-26 19:08:07 --> Hooks Class Initialized
+DEBUG - 2018-10-26 19:08:07 --> UTF-8 Support Enabled
+INFO - 2018-10-26 19:08:07 --> Utf8 Class Initialized
+INFO - 2018-10-26 19:08:07 --> URI Class Initialized
+INFO - 2018-10-26 19:08:07 --> Router Class Initialized
+INFO - 2018-10-26 19:08:07 --> Output Class Initialized
+INFO - 2018-10-26 19:08:07 --> Security Class Initialized
+DEBUG - 2018-10-26 19:08:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-10-26 19:08:07 --> Input Class Initialized
+INFO - 2018-10-26 19:08:07 --> Language Class Initialized
+INFO - 2018-10-26 19:08:07 --> Language Class Initialized
+INFO - 2018-10-26 19:08:07 --> Config Class Initialized
+INFO - 2018-10-26 19:08:07 --> Loader Class Initialized
+INFO - 2018-10-26 19:08:07 --> Helper loaded: url_helper
+INFO - 2018-10-26 19:08:07 --> Database Driver Class Initialized
+DEBUG - 2018-10-26 19:08:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-10-26 19:08:07 --> Session: Class initialized using 'files' driver.
+INFO - 2018-10-26 19:08:07 --> Helper loaded: form_helper
+INFO - 2018-10-26 19:08:07 --> Form Validation Class Initialized
+INFO - 2018-10-26 19:08:07 --> Email Class Initialized
+INFO - 2018-10-26 19:08:07 --> Controller Class Initialized
+DEBUG - 2018-10-26 19:08:07 --> Customer MX_Controller Initialized
+INFO - 2018-10-26 19:08:07 --> Upload Class Initialized
+INFO - 2018-10-26 19:08:07 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2018-10-26 19:08:07 --> Pagination Class Initialized
+INFO - 2018-10-26 19:08:07 --> Form Validation Class Initialized
+DEBUG - 2018-10-26 19:08:07 --> File loaded: /var/www/html/sports/application/controllers/../modules/templates/controllers/Templates.php
+DEBUG - 2018-10-26 19:08:07 --> Templates MX_Controller Initialized
+INFO - 2018-10-26 19:08:07 --> Helper loaded: my_helper
+INFO - 2018-10-26 19:08:07 --> Helper loaded: number_helper
+INFO - 2018-10-26 19:08:07 --> Helper loaded: text_helper
+DEBUG - 2018-10-26 19:08:07 --> File loaded: /var/www/html/sports/application/modules/customer/models/Customer_m.php
+DEBUG - 2018-10-26 19:08:07 --> File loaded: /var/www/html/sports/application/modules/customer/views/become_league_owner_view.php
+DEBUG - 2018-10-26 19:08:07 --> File loaded: /var/www/html/sports/application/modules/templates/views/user_template_view.php
+INFO - 2018-10-26 19:08:07 --> Final output sent to browser
+DEBUG - 2018-10-26 19:08:07 --> Total execution time: 0.0219
+INFO - 2018-10-26 19:08:08 --> Config Class Initialized
+INFO - 2018-10-26 19:08:08 --> Hooks Class Initialized
+DEBUG - 2018-10-26 19:08:08 --> UTF-8 Support Enabled
+INFO - 2018-10-26 19:08:08 --> Utf8 Class Initialized
+INFO - 2018-10-26 19:08:08 --> URI Class Initialized
+INFO - 2018-10-26 19:08:08 --> Router Class Initialized
+INFO - 2018-10-26 19:08:08 --> Output Class Initialized
+INFO - 2018-10-26 19:08:08 --> Security Class Initialized
+DEBUG - 2018-10-26 19:08:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-10-26 19:08:08 --> Input Class Initialized
+INFO - 2018-10-26 19:08:08 --> Language Class Initialized
+INFO - 2018-10-26 19:08:08 --> Language Class Initialized
+INFO - 2018-10-26 19:08:08 --> Config Class Initialized
+INFO - 2018-10-26 19:08:08 --> Loader Class Initialized
+INFO - 2018-10-26 19:08:08 --> Helper loaded: url_helper
+INFO - 2018-10-26 19:08:08 --> Database Driver Class Initialized
+DEBUG - 2018-10-26 19:08:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-10-26 19:08:08 --> Session: Class initialized using 'files' driver.
+INFO - 2018-10-26 19:08:08 --> Helper loaded: form_helper
+INFO - 2018-10-26 19:08:08 --> Form Validation Class Initialized
+INFO - 2018-10-26 19:08:08 --> Email Class Initialized
+INFO - 2018-10-26 19:08:08 --> Controller Class Initialized
+DEBUG - 2018-10-26 19:08:08 --> Customer MX_Controller Initialized
+INFO - 2018-10-26 19:08:08 --> Upload Class Initialized
+INFO - 2018-10-26 19:08:08 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2018-10-26 19:08:08 --> Pagination Class Initialized
+INFO - 2018-10-26 19:08:08 --> Form Validation Class Initialized
+DEBUG - 2018-10-26 19:08:08 --> File loaded: /var/www/html/sports/application/controllers/../modules/templates/controllers/Templates.php
+DEBUG - 2018-10-26 19:08:08 --> Templates MX_Controller Initialized
+INFO - 2018-10-26 19:08:08 --> Helper loaded: my_helper
+INFO - 2018-10-26 19:08:08 --> Helper loaded: number_helper
+INFO - 2018-10-26 19:08:08 --> Helper loaded: text_helper
+DEBUG - 2018-10-26 19:08:08 --> File loaded: /var/www/html/sports/application/modules/customer/models/Customer_m.php
+DEBUG - 2018-10-26 19:08:08 --> File loaded: /var/www/html/sports/application/modules/customer/views/dashboard_v.php
+DEBUG - 2018-10-26 19:08:08 --> File loaded: /var/www/html/sports/application/modules/templates/views/user_template_view.php
+INFO - 2018-10-26 19:08:08 --> Final output sent to browser
+DEBUG - 2018-10-26 19:08:08 --> Total execution time: 0.0146
+INFO - 2018-10-26 19:08:10 --> Config Class Initialized
+INFO - 2018-10-26 19:08:10 --> Hooks Class Initialized
+DEBUG - 2018-10-26 19:08:10 --> UTF-8 Support Enabled
+INFO - 2018-10-26 19:08:10 --> Utf8 Class Initialized
+INFO - 2018-10-26 19:08:10 --> URI Class Initialized
+INFO - 2018-10-26 19:08:10 --> Router Class Initialized
+INFO - 2018-10-26 19:08:10 --> Output Class Initialized
+INFO - 2018-10-26 19:08:10 --> Security Class Initialized
+DEBUG - 2018-10-26 19:08:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-10-26 19:08:10 --> Input Class Initialized
+INFO - 2018-10-26 19:08:10 --> Language Class Initialized
+INFO - 2018-10-26 19:08:10 --> Language Class Initialized
+INFO - 2018-10-26 19:08:10 --> Config Class Initialized
+INFO - 2018-10-26 19:08:10 --> Loader Class Initialized
+INFO - 2018-10-26 19:08:10 --> Helper loaded: url_helper
+INFO - 2018-10-26 19:08:10 --> Database Driver Class Initialized
+DEBUG - 2018-10-26 19:08:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-10-26 19:08:10 --> Session: Class initialized using 'files' driver.
+INFO - 2018-10-26 19:08:10 --> Helper loaded: form_helper
+INFO - 2018-10-26 19:08:10 --> Form Validation Class Initialized
+INFO - 2018-10-26 19:08:10 --> Email Class Initialized
+INFO - 2018-10-26 19:08:10 --> Controller Class Initialized
+DEBUG - 2018-10-26 19:08:10 --> Customer MX_Controller Initialized
+INFO - 2018-10-26 19:08:10 --> Upload Class Initialized
+INFO - 2018-10-26 19:08:10 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2018-10-26 19:08:10 --> Pagination Class Initialized
+INFO - 2018-10-26 19:08:10 --> Form Validation Class Initialized
+DEBUG - 2018-10-26 19:08:10 --> File loaded: /var/www/html/sports/application/controllers/../modules/templates/controllers/Templates.php
+DEBUG - 2018-10-26 19:08:10 --> Templates MX_Controller Initialized
+INFO - 2018-10-26 19:08:10 --> Helper loaded: my_helper
+INFO - 2018-10-26 19:08:10 --> Helper loaded: number_helper
+INFO - 2018-10-26 19:08:10 --> Helper loaded: text_helper
+DEBUG - 2018-10-26 19:08:10 --> File loaded: /var/www/html/sports/application/modules/customer/models/Customer_m.php
+DEBUG - 2018-10-26 19:08:10 --> File loaded: /var/www/html/sports/application/modules/customer/views/become_league_owner_view.php
+DEBUG - 2018-10-26 19:08:10 --> File loaded: /var/www/html/sports/application/modules/templates/views/user_template_view.php
+INFO - 2018-10-26 19:08:10 --> Final output sent to browser
+DEBUG - 2018-10-26 19:08:10 --> Total execution time: 0.0130

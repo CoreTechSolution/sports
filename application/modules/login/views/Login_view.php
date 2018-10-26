@@ -17,7 +17,7 @@
 							<input type="password" name="password" class="form-control" autocomplete="off">
 						</div>
 						<div class="form-group">
-							<input type="submit" name="submit" class="btn btn-primary btn-submit">
+							<input type="submit" name="submit" value="Login" class="btn btn-primary btn-submit">
 						</div>
 					</form>
                     <div class="forgotpassword"><a href="<?php echo base_url('forgot-password'); ?>">Forgot Password?</a></div>

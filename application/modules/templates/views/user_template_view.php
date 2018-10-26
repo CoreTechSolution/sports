@@ -56,7 +56,7 @@
 			<!-- /Logo -->
 			<ul class="nav navbar-top-links navbar-right pull-right">
 				<li>
-					<a class="profile-pic" href="javascript:void(0)"> <img src="<?php echo base_url('assets/images/varun.jpg'); ?>" alt="user-img" width="36" class="img-circle"><b class="hidden-xs"><?php echo $login_as; ?></b></a>
+					<a class="profile-pic" href="<?php echo base_url($this->session->userdata('user_role').'/edit_profile/'.$this->session->userdata('user_id')) ?>"> <img src="<?php echo base_url('assets/images/varun.jpg'); ?>" alt="user-img" width="36" class="img-circle"><b class="hidden-xs"><?php echo $login_as; ?></b></a>
 				</li>
 			</ul>
 		</div>
@@ -75,10 +75,10 @@
 			</div>
 			<ul class="nav" id="side-menu">
 				<li style="padding: 70px 0 0;">
-					<a href="<?php echo base_url('dashboard'); ?>" class="waves-effect"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+					<a href="<?php echo base_url($this->session->userdata('user_role').'/dashboard'); ?>" class="waves-effect"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
 				</li>
                 <li>
-                    <a href="<?php echo base_url('become-league-owner'); ?>" class="waves-effect"><i class="fab fa-galactic-republic"></i> League Owner</a>
+                    <a href="<?php echo base_url($this->session->userdata('user_role').'/become-league-owner'); ?>" class="waves-effect"><i class="fab fa-galactic-republic"></i> League Owner</a>
                 </li>
 				<li>
 					<a href="<?php echo base_url('logout'); ?>" class="waves-effect"><i class="fas fa-sign-out-alt"></i> Logout</a>
