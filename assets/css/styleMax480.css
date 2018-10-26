@@ -1,0 +1,124 @@
+.wrapper1{
+    display: none;
+}
+.wrapper1_1{
+    display: block;
+    padding: 15px 0;
+}
+.wrapper1_1 .login-signup {
+    text-align: center;
+}
+.wrapper1_1 .login-signup{
+    padding-top: 23px;
+}
+.wrapper1_1 .login-signup ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.wrapper1_1 .login-signup ul li{
+    display: inline-block;
+    padding-left: 18px;
+}
+.wrapper1_1 .login-signup ul li:first-child a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+    border: 2px solid #378661;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+.wrapper1_1 .login-signup ul li:nth-child(2) a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background: #378661;
+    border-radius: 5px;
+    padding: 7px 20px;
+}
+.col-lg-15{
+    width: 100%;
+}
+.wrapper3 ul {
+    text-align: left;
+}
+.wrapper3 ul li:first-child {
+    width: 82px;
+}
+.wrapper3 ul li {
+    margin-bottom: 14px;
+}
+.wrapper3 .col-lg-15:last-child ul li{
+    margin-bottom: 0;
+}
+.wrapper4 {
+    padding: 20px 0;
+}
+.bxslider-slide{
+    padding: 30px 10px;
+}
+.wrapper2 .bx-wrapper .bx-next, .wrapper2 .bx-wrapper .bx-prev{
+    display: none;
+}
+.wrapper5 .boxes ul{
+    column-count: auto;
+}
+.wrapper5 .boxes ul li{
+    display: block;
+}
+.wrapper5 > ul > li:first-child {
+     margin-right: 0px;
+     margin-left: 0px;
+}
+.wrapper5 > ul > li {
+     display: block;
+     width: auto;
+    vertical-align: top;
+}
+.wrapper5 .boxes ul li img{
+    width: 100%;
+}
+.wrapper5 .yellowbox {
+    margin-bottom: 16px;
+}
+.wrapper5 .lastimg{
+    margin-top: 16px;
+}
+.wrapper5 .lastimg img {
+    height: auto;
+}
+.wrapper6 h2 {
+    margin: 0 0 15px 0;
+}
+.wrapper6-post1 {
+    position: relative;
+    top: auto;
+    left: auto;
+}
+.wrapper6_1 > ul > li:first-child {
+    display: none;
+}
+.wrapper6_1 > ul > li:nth-child(2) {
+    width: auto;
+    padding: 27px 0;
+}
+.wrapper6_1 > ul > li {
+     padding: 0px;
+    text-align: center;
+}
+.wrapper7box1, .wrapper7box2, .wrapper7box3, .wrapper7box4, .wrapper7box5 {
+    margin-bottom: 10px;
+}
+.wrapper8 h2 {
+    margin: 30px 0 25px 0;
+}
+.copyright {
+    text-align: center;
+}
+.social-connects {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,1 @@
+[21-Oct-2018 08:56:23 America/Chicago] PHP Fatal error:  Call to a member function get_user_data_by_id() on null in /home1/cgsthemes/public_html/sports/application/modules/dashboard/controllers/Dashboard.php on line 25
