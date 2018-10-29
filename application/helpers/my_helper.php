@@ -81,3 +81,32 @@ function decripted($data){
 	$final_data = explode('|', $val);
 	return $final_data[1];
 }
+function image_upload($file,$input_name, $path='uploads',$allowed_types='jpg|png|jpeg',$max_size='5242880'){
+    $rtntext='';
+    //print_r(FCPATH); exit();
+    $CI = & get_instance();
+    if(!empty($file[$input_name]['name'])){
+        $upload_path=$path;
+        $CI->load->library('upload');
+        if (!file_exists(FCPATH .$upload_path)) {
+            mkdir(FCPATH .$upload_path, 0777, true);
+        }
+        $config['upload_path'] = FCPATH . $upload_path . '/';
+        $config['allowed_types'] = $allowed_types;
+        $config['max_size'] = $max_size; //default: 5MB max     = '*';
+        $CI->upload->initialize($config);
+        //echo "string"; exit();
+        if (!$CI->upload->do_upload($input_name)) {
+            //print_r($CI->upload->display_errors()); exit();
+            $CI->session->set_flashdata('msg', $CI->upload->display_errors());
+            $CI->session->set_flashdata('msg_type', 'Error');
+            $rtntext = false;
+        } else {
+            $ufile = $CI->upload->data();
+            $rtntext=base_url().$upload_path.'/'.$ufile['file_name'];
+            $CI->session->set_userdata('delete_file_path',FCPATH.$upload_path.'/'.$ufile['file_name'] );
+        }
+
+    }
+    return $rtntext;
+}

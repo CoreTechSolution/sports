@@ -6,7 +6,7 @@ class MY_Controller extends MX_Controller {
     function __construct() {
         parent::__construct();
 	    $this->load->library(array('session','upload', 'pagination', 'email','my_form_validation'));
-        $this->load->module(array('templates'));
+        $this->load->module(array('templates','users'));
 	    $this->load->helper(array('my_helper','number','text'));
     }
 }

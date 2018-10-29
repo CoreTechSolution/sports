@@ -78,6 +78,9 @@
 					<a href="<?php echo base_url($this->session->userdata('user_role').'/dashboard'); ?>" class="waves-effect"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
 				</li>
                 <li>
+                    <a href="<?php echo base_url($this->session->userdata('user_role').'/profile'); ?>" class="waves-effect"><i class="fas fa-user"></i> Profile</a>
+                </li>
+                <li>
                     <a href="<?php echo base_url($this->session->userdata('user_role').'/become-league-owner'); ?>" class="waves-effect"><i class="fab fa-galactic-republic"></i> League Owner</a>
                 </li>
 				<li>
