@@ -106,4 +106,13 @@ class Admin_model extends MY_Model {
             return false;
         }
     }
+    function edit_affiliate($value,$condition){
+	    $this->_tbl_name='affiliates';
+	    $update=$this->common_update($value,$condition);
+        if($update){
+            return $update;
+        } else {
+            return false;
+        }
+    }
 }
