@@ -110,3 +110,10 @@ function image_upload($file,$input_name, $path='uploads',$allowed_types='jpg|png
     }
     return $rtntext;
 }
+function image_show($path){
+    if(!empty($path)){
+        return $path;
+    } else{
+        return base_url('assets/images/placeholder.gif');
+    }
+}

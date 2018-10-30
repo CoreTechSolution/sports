@@ -125,4 +125,51 @@ class Admin extends MY_Controller {
 		$this->admin_model->delete_ground($ground_id);
 		redirect('admin/grounds');
 	}
+	public function affiliates(){
+        isLogin('admin');
+        $data['page_title'] = 'Affiliates';
+        $data['nav_title'] = 'Affiliates';
+        $data['affiliates'] = $this->admin_model->get_affiliates();
+        $data['page_content'] = 'admin/affiliates_v';
+        $this->templates->call_admin_template($data);
+    }
+    public function add_affiliate(){
+        isLogin('admin');
+        $data['page_title'] = 'Affiliates';
+        $data['nav_title'] = 'Affiliates';
+        $data['page_content'] = 'admin/add_affiliate_v';
+        $data['method']='admin/add_affiliate';
+        if(!empty($this->input->post('save'))){
+            $this->form_validation->set_rules('title', 'Title', 'required');
+            $this->form_validation->set_rules('link', 'link', 'trim|required|valid_url');
+            if ($this->form_validation->run() == false) {
+                $this->templates->call_admin_template($data);
+            } else {
+                $value['title'] = $this->input->post('title');
+                $value['link'] = $this->input->post('link');
+                if(!empty($_FILES['banner_img']['name'])){
+                    $img_path=image_upload($_FILES,'banner_img','uploads/a_banner');
+                    if($img_path){
+                        $value['banner_img']=$img_path;
+                    } else{
+                        $this->templates->call_admin_template($data);
+                        return false;
+                    }
+                }
+                $user_id = $this->admin_model->insert_affiliate($value);
+                //echo $this->db->last_query(); exit();
+                if ($user_id > 0) {
+
+                    $this->session->set_flashdata(array('msg_type'=>'success','msg'=>'Affiliate added'));
+                    $this->templates->call_admin_template($data);
+                } else {
+                    $this->session->set_flashdata(array('msg_type'=>'error','msg'=>'Something wrong! Please try again  later'));
+                    $this->templates->call_admin_template($data);
+                }
+            }
+        } else{
+            $this->templates->call_admin_template($data);
+        }
+        //$this->templates->call_admin_template($data);
+    }
 }
