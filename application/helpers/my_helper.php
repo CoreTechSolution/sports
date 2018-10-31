@@ -136,3 +136,25 @@ function get_category_name_by_id($id){
 	$field = $fields->row();
 	return $field->category_name;
 }
+function get_sports_categories(){
+	$CI = & get_instance();
+	$CI->db->select('*');
+	$CI->db->from('sports_categories');
+	$categories = $CI->db->get();
+	if(!empty($categories)) {
+		return $categories->result_array();
+	} else {
+		return false;
+	}
+}
+function get_cities(){
+	$CI = & get_instance();
+	$CI->db->select('*');
+	$CI->db->from('locations');
+	$locations = $CI->db->get();
+	if(!empty($locations)) {
+		return $locations->result_array();
+	} else {
+		return false;
+	}
+}

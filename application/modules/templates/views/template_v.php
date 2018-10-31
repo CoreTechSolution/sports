@@ -46,9 +46,16 @@
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle"href="javascript:void(0);" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cities</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="javascript:void(0);">City 1</a>
-							<a class="dropdown-item" href="javascript:void(0);">City 2</a>
-							<a class="dropdown-item" href="javascript:void(0);">City 3</a>
+                            <?php
+                            $locations = get_cities();
+                            if(!empty($locations)){
+                                foreach($locations as $location){
+                            ?>
+                                    <a class="dropdown-item" href="javascript:void(0);"><?php echo $location['location_name']; ?></a>
+                            <?php
+                                }
+                            }
+                            ?>
 						</div>
 					</li>
 				</ul>
@@ -91,9 +98,16 @@
 							<li class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle"href="javascript:void(0);" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cities</a>
 								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<a class="dropdown-item" href="javascript:void(0);">City 1</a>
-									<a class="dropdown-item" href="javascript:void(0);">City 2</a>
-									<a class="dropdown-item" href="javascript:void(0);">City 3</a>
+									<?php
+									$locations = get_cities();
+									if(!empty($locations)){
+										foreach($locations as $location){
+											?>
+                                            <a class="dropdown-item" href="javascript:void(0);"><?php echo $location['location_name']; ?></a>
+											<?php
+										}
+									}
+									?>
 								</div>
 							</li>
 						</ul>
@@ -191,6 +205,7 @@
             maxSlides: 6,
             moveSlides: 1,
             infiniteLoop: true,
+            autoHover: true,
         });
     })
 </script>
