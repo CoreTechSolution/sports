@@ -10339,3 +10339,16 @@ ul.pro-amenities li span i {
 .editable_img {
     width: 250px;
 }
+.row_preview_img{
+    width:100px;
+}
+.row_edit_link{
+    color: green;
+    font-weight: 400;
+    font-size: 13px;
+}
+.row_delete_link{
+    font-size: 13px;
+    color: red;
+    font-weight: 400;
+}

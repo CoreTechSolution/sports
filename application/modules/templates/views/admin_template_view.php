@@ -21,12 +21,17 @@
 	<!-- color CSS -->
 	<link rel="stylesheet" href="<?php echo base_url('assets/css/default.css'); ?>">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel='stylesheet' href='<?php echo base_url('assets/css/sweetalert2.css'); ?>' type='text/css'/>
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
 	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
 	<![endif]-->
+    <script>
+        var base_url='<?php echo base_url(); ?>';
+    </script>
 </head>
 
 <body class="fix-header">
@@ -90,6 +95,9 @@
                     <a href="<?php /*echo base_url(''); */?>" class="waves-effect"><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i>Manage Users</a>
                 </li>-->
                 <li>
+                    <a href="<?php echo base_url('admin/affiliates'); ?>" class="waves-effect"><i class="fab fa-affiliatetheme"></i> Affiliates</a>
+                </li>
+                <li>
                     <a href="<?php echo base_url('logout'); ?>" class="waves-effect"><i class="fas fa-sign-out-alt"></i> Logout</a>
                 </li>
             </ul>
@@ -124,6 +132,7 @@
 <script src="<?php echo base_url('assets/js/sidebar-nav.min.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/jquery.slimscroll.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/waves.js'); ?>"></script>
+<script src="<?php echo base_url('assets/js/sweetalert2.js'); ?>" ></script>
 <script src="<?php echo base_url('assets/js/custom.min.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/tinymce/tinymce.min.js'); ?>"></script>
 <script>
@@ -141,5 +150,6 @@
         $('.table').footable();
     });
 </script>
+<script src="<?php echo base_url('assets/js/theme.script.js'); ?>"></script>
 </body>
 </html>
