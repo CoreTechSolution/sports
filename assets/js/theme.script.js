@@ -1,42 +1,12 @@
 $(function($){
-    $('.nav').slicknav({
-        prependTo:'#rspnavigation',
-        label:''
-    });
-
-    $('.fancybox-media').fancybox({
-        openEffect  : 'none',
-        closeEffect : 'none',
-        maxWidth	: 800,
-        maxHeight	: 600,
-        helpers : {
-            media : {}
-        }
-    });
-
-
-    $('.matchheight').matchHeight();
-    $('.matchheight1').matchHeight();
-    $('.short_description').matchHeight();
-
-    $('.fbreviewslider').bxSlider({
-        auto: true,
-        pager: false,
-        minSlides: 1,
-        maxSlides: 3,
-        slideWidth: 230,
-        moveSlides: 1,
-        slideMargin: 20,
-        infiniteLoop: true,
-        /*nextSelector: '#slider-next3',
-        prevSelector: '#slider-prev3',*/
-        //nextText: '<img src="<?php bloginfo('template_directory'); ?>/images/right-arrow.png">',
-        //prevText: '<img src="<?php bloginfo('template_directory'); ?>/images/left-arrow.png">'
-    });
-});
-$(document).ready(function () {
     $('.table').footable();
+    tinymce.init({
+        selector:'#mytextarea',
+        height: 300,
+        menubar: false,
+    });
 });
+
 function delete_data(id,check_field,table_name){
     var current_location=window.location.href;
     swal({

@@ -21,13 +21,6 @@
 				<?php } ?>
                 </tbody>
             </table>
-            <link rel="stylesheet" media="all" href="<?php echo  base_url('/assets/css/footable.bootstrap.min.css'); ?>" />
-            <script src="<?php echo base_url('/assets/js/footable.js'); ?>" type="text/javascript"></script>
-            <script>
-                jQuery(function(){
-                    jQuery('.table').footable();
-                });
-            </script>
 		</div>
 	</div>
 </div>
