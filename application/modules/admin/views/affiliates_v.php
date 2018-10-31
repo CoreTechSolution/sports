@@ -3,6 +3,7 @@
         <div class="white-box">
             <div style="text-align: right"><a href="<?php echo base_url('admin/add_affiliate') ?>" class="btn btn-primary btn-primary-link">Add</a></div>
             <br>
+            <?php $this->templates->call_error_template(); ?>
             <table class="table">
                 <thead>
                 <tr>
@@ -23,7 +24,7 @@
                             <td><?php echo $affiliate->title; ?></td>
                             <td><?php echo $affiliate->link;; ?></td>
                             <td><?php echo $affiliate->status;; ?></td>
-                            <td><a class="row_edit_link" href="<?php echo base_url('admin/delete_category'); ?>/=<?php echo $affiliate->id; ?>"><i class="fas fa-edit"></i> Edit</a><br>
+                            <td><a class="row_edit_link" href="<?php echo base_url('admin/edit_affiliate'); ?>/<?php echo $affiliate->id; ?>"><i class="fas fa-edit"></i> Edit</a><br>
                                 <a class="row_delete_link" href="javascript:void(0)" onclick="delete_data(<?php echo $affiliate->id; ?>,'id','affiliates');"><i class="fas fa-trash-alt"></i> Delete</a>
                             </td>
                         </tr>

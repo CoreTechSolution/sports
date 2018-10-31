@@ -203,8 +203,9 @@ class Admin extends MY_Controller {
                 if ($user_id > 0) {
 
                     $this->session->set_flashdata(array('msg_type'=>'success','msg'=>'Update successful'));
-                    $data['page_content'] = 'admin/affiliates_v';
-                    $this->templates->call_admin_template($data);
+                    //$data['page_content'] = 'admin/affiliates_v';
+                    //$this->templates->call_admin_template($data);
+                    redirect(base_url('admin/affiliates'));
                 } else {
                     $this->session->set_flashdata(array('msg_type'=>'error','msg'=>'Something wrong! Please try again  later'));
                     $this->templates->call_admin_template($data);
