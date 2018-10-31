@@ -110,3 +110,10 @@ function image_upload($file,$input_name, $path='uploads',$allowed_types='jpg|png
     }
     return $rtntext;
 }
+
+function get_location_name_by_id($id){
+
+}
+function get_category_name_by_id($id){
+
+}

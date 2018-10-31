@@ -1,11 +1,4 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: coregen3
- * Date: 29/10/18
- * Time: 6:09 PM
- */
-defined('BASEPATH') OR exit('No direct script access allowed');
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
 class Users extends MY_Controller
 {
     public function __construct(){

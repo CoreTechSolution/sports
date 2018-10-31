@@ -78,13 +78,13 @@
                     <a href="<?php echo base_url('admin/dashboard'); ?>" class="waves-effect"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
                 </li>
                 <li>
-                    <a href="<?php echo base_url('admin/sports-categories'); ?>" class="waves-effect"><i class="fas fa-certificate"></i> Sports Categories</a>
+                    <a href="<?php echo base_url('admin/sports-categories'); ?>" class="waves-effect"><i class="fas fa-certificate"></i> Sports</a>
                 </li>
                 <li>
-                    <a href="<?php echo base_url('admin/venues'); ?>" class="waves-effect"><i class="fas fa-map-marker-alt"></i> Venues</a>
+                    <a href="<?php echo base_url('admin/venues'); ?>" class="waves-effect"><i class="fas fa-map-marker-alt"></i> Locations</a>
                 </li>
                 <li>
-                    <a href="<?php echo base_url('admin/grounds'); ?>" class="waves-effect"><i class="fas fa-campground"></i> Grounds</a>
+                    <a href="<?php echo base_url('admin/grounds'); ?>" class="waves-effect"><i class="fas fa-campground"></i> Venues</a>
                 </li>
                 <!--<li>
                     <a href="<?php /*echo base_url(''); */?>" class="waves-effect"><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i>Manage Users</a>
@@ -125,5 +125,21 @@
 <script src="<?php echo base_url('assets/js/jquery.slimscroll.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/waves.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/custom.min.js'); ?>"></script>
+<script src="<?php echo base_url('assets/js/tinymce/tinymce.min.js'); ?>"></script>
+<script>
+    tinymce.init({
+        selector:'#mytextarea',
+        height: 300,
+        menubar: false,
+        //toolbar: true
+    });
+</script>
+<link rel="stylesheet" media="all" href="<?php echo  base_url('/assets/css/footable.bootstrap.min.css'); ?>" />
+<script src="<?php echo base_url('/assets/js/footable.min.js'); ?>" type="text/javascript"></script>
+<script>
+    jQuery(function($){
+        $('.table').footable();
+    });
+</script>
 </body>
 </html>
