@@ -119,8 +119,20 @@ function image_show($path){
 }
 
 function get_location_name_by_id($id){
-
+	$CI = & get_instance();
+	$CI->db->select('location_name');
+	$CI->db->from("locations");
+	$CI->db->where('location_id', $id);
+	$fields = $CI->db->get();
+	$field = $fields->row();
+	return $field->location_name;
 }
 function get_category_name_by_id($id){
-
+	$CI = & get_instance();
+	$CI->db->select('category_name');
+	$CI->db->from("sports_categories");
+	$CI->db->where('category_id', $id);
+	$fields = $CI->db->get();
+	$field = $fields->row();
+	return $field->category_name;
 }

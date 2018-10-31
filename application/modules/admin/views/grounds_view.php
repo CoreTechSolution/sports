@@ -18,8 +18,8 @@
 					<?php foreach($grounds as $venue) { ?>
 						<tr>
 							<td><?php echo $venue['venue_name']; ?></td>
-							<td><?php echo $venue['venue_location']; ?></td>
-							<td><?php echo $venue['venue_category']; ?></td>
+							<td><?php echo get_location_name_by_id($venue['venue_location']); ?></td>
+							<td><?php echo get_category_name_by_id($venue['venue_category']); ?></td>
 							<td><?php echo $venue['venue_prices']; ?></td>
 							<td style="text-align: right;"><a href="<?php echo base_url('admin/delete_ground'); ?>/?venue_id=<?php echo $venue['venue_id']; ?>">Delete</a></td>
 						</tr>
