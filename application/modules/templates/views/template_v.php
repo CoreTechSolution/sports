@@ -16,6 +16,7 @@
 	<link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700|Open+Sans:300,400,600,700|Raleway:300,400,500,600|Roboto:100,300,400,500,700|Lato:100,300,400,700" rel="stylesheet">
 	<link rel="stylesheet" href="<?php echo base_url('assets/css/jquery.bxslider.css'); ?>">
+	<link rel="stylesheet" href="<?php echo base_url('assets/css/jplist.styles.css'); ?>">
 	<link rel="stylesheet" href="<?php echo base_url('assets/css/style.css'); ?>">
 	<link rel="stylesheet" media="only screen and (min-width: 321px) and (max-width: 480px)" href="<?php echo base_url('assets/css/styleMax480.css'); ?>">
 	<title>Sports Pitches, Courts and Facilities</title>
@@ -207,7 +208,7 @@
             infiniteLoop: true,
             autoHover: true,
         });
-    })
+    });
 </script>
 </body>
 </html>

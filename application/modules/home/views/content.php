@@ -1,5 +1,6 @@
 <div class="wrapper2">
-	<div class="bxslider">
+    <!--<input id="locationTextField2" type="text" class="form-control locationTextField2" name="" placeholder="Select Location">-->
+	<!--<div class="bxslider">
 		<div>
 			<div class="bxslider-slide" style="background: url('assets/images/banner-bg.jpg') no-repeat top center;">
 				<div class="row">
@@ -15,7 +16,7 @@
 					<div class="col-xl-3"></div>
 				</div>
 				<div class="bookingform">
-					<form method="get" action="<?php echo base_url('home/venue_search_form'); ?>">
+					<form method="get" action="<?php /*echo base_url('home/venue_search_form'); */?>">
 						<div class="row">
 							<div class="col-xl-1"></div>
 							<div class="col-xl-10">
@@ -25,21 +26,21 @@
 											<select class="form-control" name="sport">
 												<option value="">Select Sports</option>
                                                 <?php
-                                                $categories = get_sports_categories();
+/*                                                $categories = get_sports_categories();
                                                 if(!empty($categories)){
                                                     foreach($categories as $category){
-                                                ?>
-                                                        <option value="<?php echo $category['category_id']; ?>"><?php echo $category['category_name']; ?></option>
+                                                */?>
+                                                        <option value="<?php /*echo $category['category_id']; */?>"><?php /*echo $category['category_name']; */?></option>
                                                 <?php
-                                                    }
+/*                                                    }
                                                 }
-                                                ?>
+                                                */?>
 											</select>
 										</div>
 									</div>
 									<div class="col-xl-4">
 										<div class="form-group">
-											<input type="text" class="form-control" name="" placeholder="Select Location">
+											<input type="text" class="form-control locationTextField" name="" placeholder="Select Location">
 										</div>
 									</div>
 									<div class="col-xl-4">
@@ -55,117 +56,189 @@
 				</div>
 			</div>
 		</div>
-		<div>
-			<div class="bxslider-slide" style="background: url('assets/images/banner-bg.jpg') no-repeat top center;">
-				<div class="row">
-					<div class="col-xl-12">
-						<h1>Sports Pitches, Courts and Facilities</h1>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-xl-3"></div>
-					<div class="col-xl-6">
-						<p>Find sports facilities from football pitches to tennis courts in a range of cities across the UK and Ireland</p>
-					</div>
-					<div class="col-xl-3"></div>
-				</div>
-				<div class="bookingform">
-					<form method="" action="">
-						<div class="row">
-							<div class="col-xl-1"></div>
-							<div class="col-xl-10">
-								<div class="row">
-									<div class="col-xl-4">
-										<div class="form-group">
-											<select class="form-control" name="">
-												<option value="">Select Sports</option>
+        <div>
+            <div class="bxslider-slide" style="background: url('assets/images/banner-bg.jpg') no-repeat top center;">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <h1>Sports Pitches, Courts and Facilities</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-3"></div>
+                    <div class="col-xl-6">
+                        <p>Find sports facilities from football pitches to tennis courts in a range of cities across the UK and Ireland</p>
+                    </div>
+                    <div class="col-xl-3"></div>
+                </div>
+                <div class="bookingform">
+                    <form method="get" action="<?php /*echo base_url('home/venue_search_form'); */?>">
+                        <div class="row">
+                            <div class="col-xl-1"></div>
+                            <div class="col-xl-10">
+                                <div class="row">
+                                    <div class="col-xl-4">
+                                        <div class="form-group">
+                                            <select class="form-control" name="sport">
+                                                <option value="">Select Sports</option>
 												<?php
-												$categories = get_sports_categories();
+/*												$categories = get_sports_categories();
 												if(!empty($categories)){
 													foreach($categories as $category){
-														?>
-                                                        <option value="<?php echo $category['category_id']; ?>"><?php echo $category['category_name']; ?></option>
+														*/?>
+                                                        <option value="<?php /*echo $category['category_id']; */?>"><?php /*echo $category['category_name']; */?></option>
 														<?php
-													}
+/*													}
 												}
-												?>
-											</select>
-										</div>
-									</div>
-									<div class="col-xl-4">
-										<div class="form-group">
-											<input type="text" class="form-control" name="" placeholder="Select Location">
-										</div>
-									</div>
-									<div class="col-xl-4">
-										<div class="form-group">
-											<input type="submit" class="form-control" name="" value="Book Your Court">
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-xl-1"></div>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-		<div>
-			<div class="bxslider-slide" style="background: url('assets/images/banner-bg.jpg') no-repeat top center;">
-				<div class="row">
-					<div class="col-xl-12">
-						<h1>Sports Pitches, Courts and Facilities</h1>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-xl-3"></div>
-					<div class="col-xl-6">
-						<p>Find sports facilities from football pitches to tennis courts in a range of cities across the UK and Ireland</p>
-					</div>
-					<div class="col-xl-3"></div>
-				</div>
-				<div class="bookingform">
-					<form method="" action="">
-						<div class="row">
-							<div class="col-xl-1"></div>
-							<div class="col-xl-10">
-								<div class="row">
-									<div class="col-xl-4">
-										<div class="form-group">
-											<select class="form-control" name="">
-												<option value="">Select Sports</option>
+												*/?>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="" placeholder="Select Location">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <div class="form-group">
+                                            <input type="submit" class="form-control" name="submit" value="Book Your Court">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-1"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="bxslider-slide" style="background: url('assets/images/banner-bg.jpg') no-repeat top center;">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <h1>Sports Pitches, Courts and Facilities</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-3"></div>
+                    <div class="col-xl-6">
+                        <p>Find sports facilities from football pitches to tennis courts in a range of cities across the UK and Ireland</p>
+                    </div>
+                    <div class="col-xl-3"></div>
+                </div>
+                <div class="bookingform">
+                    <form method="get" action="<?php /*echo base_url('home/venue_search_form'); */?>">
+                        <div class="row">
+                            <div class="col-xl-1"></div>
+                            <div class="col-xl-10">
+                                <div class="row">
+                                    <div class="col-xl-4">
+                                        <div class="form-group">
+                                            <select class="form-control" name="sport">
+                                                <option value="">Select Sports</option>
 												<?php
-												$categories = get_sports_categories();
+/*												$categories = get_sports_categories();
 												if(!empty($categories)){
 													foreach($categories as $category){
-														?>
-                                                        <option value="<?php echo $category['category_id']; ?>"><?php echo $category['category_name']; ?></option>
+														*/?>
+                                                        <option value="<?php /*echo $category['category_id']; */?>"><?php /*echo $category['category_name']; */?></option>
 														<?php
-													}
+/*													}
 												}
-												?>
-											</select>
-										</div>
-									</div>
-									<div class="col-xl-4">
-										<div class="form-group">
-											<input type="text" class="form-control" name="" placeholder="Select Location">
-										</div>
-									</div>
-									<div class="col-xl-4">
-										<div class="form-group">
-											<input type="submit" class="form-control" name="" value="Book Your Court">
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-xl-1"></div>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
+												*/?>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="" placeholder="Select Location">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <div class="form-group">
+                                            <input type="submit" class="form-control" name="submit" value="Book Your Court">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-1"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+	</div>-->
+    <div class="bxslider">
+        <div>
+            <div class="bxslider-slide" style="background: url('assets/images/banner-bg.jpg') no-repeat top center;">
+                <div style="padding: 130px 0;"></div>
+            </div>
+        </div>
+        <div>
+            <div class="bxslider-slide" style="background: url('assets/images/banner-bg.jpg') no-repeat top center;">
+                <div style="padding: 130px 0;"></div>
+            </div>
+        </div>
+        <div>
+            <div class="bxslider-slide" style="background: url('assets/images/banner-bg.jpg') no-repeat top center;">
+                <div style="padding: 130px 0;"></div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper2_slider_content">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <h1>Sports Pitches, Courts and Facilities</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3"></div>
+                <div class="col-xl-6">
+                    <p>Find sports facilities from football pitches to tennis courts in a range of cities across the UK and Ireland</p>
+                </div>
+                <div class="col-xl-3"></div>
+            </div>
+            <div class="bookingform">
+                <form method="get" action="<?php echo base_url('home/venue_search_form'); ?>">
+                    <div class="row">
+                        <div class="col-xl-1"></div>
+                        <div class="col-xl-10">
+                            <div class="row">
+                                <div class="col-xl-4">
+                                    <div class="form-group">
+                                        <select class="form-control" name="sport">
+                                            <option value="">Select Sports</option>
+									        <?php
+									        $categories = get_sports_categories();
+									        if(!empty($categories)){
+										        foreach($categories as $category){
+											        ?>
+                                                    <option value="<?php echo $category['category_id']; ?>"><?php echo $category['category_name']; ?></option>
+											        <?php
+										        }
+									        }
+									        ?>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4">
+                                    <div class="form-group">
+                                        <input id="locationTextField2" type="text" class="form-control" name="location" placeholder="Select Location">
+                                    </div>
+                                </div>
+                                <div class="col-xl-4">
+                                    <div class="form-group">
+                                        <input type="submit" class="form-control" name="submit" value="Book Your Court">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-1"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
 <!---->
 <div class="wrapper3">
@@ -341,3 +414,14 @@
 	</div>
 </div>
 <!---->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPeWdW40Sy3y2nes_xxgg81pv0bY1ppYM&libraries=places&callback=init" async defer></script>
+<script>
+    function init() {
+        var input = document.getElementById('locationTextField2');
+        var options = {
+            types: ['geocode'],
+            componentRestrictions: {country: "uk"}
+        };
+        var autocomplete = new google.maps.places.Autocomplete(input, options);
+    }
+</script>
