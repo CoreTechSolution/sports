@@ -900,3 +900,88 @@ img.aligncenter {display: block; margin-left: auto; margin-right: auto}
     display: inline-block;
     text-align: center;
 }
+.wrapper12 .content-area{
+    margin: 20px 0;
+    min-height: 200px;
+}
+.box_container{
+    border-radius: 3px;
+    /*border: 1px solid rgba(0,0,0,.125);*/
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 2px 1px -1px rgba(0,0,0,.12), -1px 0 0 0 rgba(0,0,0,.05);
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+    margin-bottom: 20px;
+    border: 1px solid #FBFBFB;
+    border-top: 1px solid #EEEEEE;
+}
+.box_container .box_title{
+    background: #f9f9f9;
+    padding: 10px 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    border-bottom: 1px solid #dddddd;
+    border-radius: 3px 3px 0 0;
+}
+.box_container .box_content{
+    background: #FFFFFF;
+    padding: 10px 15px;
+}
+.box_container .box_content p{
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.section1 h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #101010;
+}
+.section1 h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #101010;
+}
+.venue_big_img{
+    margin-bottom: 20px;
+}
+.google_map_container{
+    margin-bottom: 20px;
+}
+.nearby_venues{
+
+}
+.nearby_venues ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nearby_venues ul li{
+    display: inline-block;
+    vertical-align: top;
+}
+.nearby_venues ul li:first-child{
+    width: 35%;
+}
+.nearby_venues ul li:nth-child(2){
+    width: 63%;
+    padding-left: 10px;
+}
+.nearby_venues ul li h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #101010;
+    margin-bottom: 5px;
+}
+.nearby_venues .box_content ul li p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #101010;
+}

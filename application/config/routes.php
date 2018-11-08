@@ -62,3 +62,5 @@ $route['thankyou'] = 'login/thankyou';
 $route['resetpassword'] = 'login/resetpassword';
 $route['customer/become-league-owner'] = 'customer/become_league_owner';
 $route['customer/my-account'] = 'customer/my_account';
+$route['venue'] = 'home/venue';
+$route['venue/(:any)'] = 'home/venue/$1';
