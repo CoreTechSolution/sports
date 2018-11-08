@@ -63,7 +63,7 @@
 									<div class="row">
 										<div class="col-xl-12">
 											<div class="form-group">
-												<input type="text" placeholder="Your Full Name" class="form-control" name="booking_enquiry_">
+												<input type="text" placeholder="Your Full Name" class="form-control" name="booking_enquiry_your_full_name">
 											</div>
 										</div>
 									</div>
@@ -206,7 +206,7 @@
         var mapOptions = {
             zoom: 17,
             mapTypeId: google.maps.MapTypeId.ROADMAP
-        }
+        };
         map = new google.maps.Map(document.getElementById('googleMap'), mapOptions);
         var address = "Bexleyheath Academy  Woolwich Road Bexleyheath DA6 7DA";
         geocoder.geocode({ 'address': address}, function(results, status) {
