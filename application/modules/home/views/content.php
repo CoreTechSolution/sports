@@ -1,4 +1,5 @@
 <div class="wrapper2">
+    <?php echo get_setting_value('admin_email'); ?>
     <!--<input id="locationTextField2" type="text" class="form-control locationTextField2" name="" placeholder="Select Location">-->
 	<!--<div class="bxslider">
 		<div>

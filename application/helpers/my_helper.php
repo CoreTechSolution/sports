@@ -167,3 +167,12 @@ function get_venue_data_by_slug($slug){
 	$field = $fields->row();
 	return $field;
 }
+function get_setting_value($site_option){
+	$CI = & get_instance();
+	$CI->db->select('value');
+	$CI->db->from("settings");
+	$CI->db->where('site_option', $site_option);
+	$fields = $CI->db->get();
+	$field = $fields->row();
+	return $field;
+}
