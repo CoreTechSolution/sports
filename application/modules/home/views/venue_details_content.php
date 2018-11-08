@@ -222,4 +222,4 @@
         });
     }
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPeWdW40Sy3y2nes_xxgg81pv0bY1ppYM&callback=myMap"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=<?php echo get_setting_value('google_map_api_key'); ?>&callback=myMap"></script>

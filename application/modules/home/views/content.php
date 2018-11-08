@@ -1,5 +1,4 @@
 <div class="wrapper2">
-    <?php echo get_setting_value('admin_email'); ?>
     <!--<input id="locationTextField2" type="text" class="form-control locationTextField2" name="" placeholder="Select Location">-->
 	<!--<div class="bxslider">
 		<div>
@@ -415,7 +414,7 @@
 	</div>
 </div>
 <!---->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPeWdW40Sy3y2nes_xxgg81pv0bY1ppYM&libraries=places&callback=init" async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=<?php echo get_setting_value('google_map_api_key'); ?>&libraries=places&callback=init" async defer></script>
 <script>
     function init() {
         var input = document.getElementById('locationTextField2');

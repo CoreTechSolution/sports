@@ -174,5 +174,5 @@ function get_setting_value($site_option){
 	$CI->db->where('site_option', $site_option);
 	$fields = $CI->db->get();
 	$field = $fields->row();
-	return $field;
+	return $field->value;
 }
