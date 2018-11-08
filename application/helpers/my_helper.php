@@ -158,3 +158,12 @@ function get_cities(){
 		return false;
 	}
 }
+function get_venue_data_by_slug($slug){
+	$CI = & get_instance();
+	$CI->db->select('*');
+	$CI->db->from("venues");
+	$CI->db->where('slug', $slug);
+	$fields = $CI->db->get();
+	$field = $fields->row();
+	return $field;
+}

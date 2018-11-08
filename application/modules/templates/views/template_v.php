@@ -208,6 +208,13 @@
             infiniteLoop: true,
             autoHover: true,
         });
+        jQuery('#block_booking').click(function(){
+            if(jQuery("#block_booking").is(':checked')){
+                jQuery("#selected_block_booking").show();  // checked
+            } else {
+                jQuery("#selected_block_booking").hide();  // unchecked
+            }
+        });
     });
 </script>
 </body>

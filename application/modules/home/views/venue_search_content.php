@@ -211,7 +211,7 @@
                                             <div class="distance_wrapper"><p>0 Miles Away</p></div>
                                         </div>
                                         <div class="col-xl-3">
-                                            <div class="explore_venue"><a href="javascript:void(0)">Explore Venue</a></div>
+                                            <div class="explore_venue"><a href="<?php echo base_url('venue/'.$venue->slug); ?>">Explore Venue</a></div>
                                         </div>
                                     </div>
                                 </div>

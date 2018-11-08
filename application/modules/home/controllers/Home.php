@@ -19,4 +19,14 @@ class Home extends MY_Controller {
 			$this->templates->call_template($data);
 		}
 	}
+	public function venue(){
+		$data['content_v'] = 'home/venue_details_content';
+		$this->templates->call_template($data);
+	}
+	public function block_booking_enquiry_form(){
+		if($this->input->post('submit')){
+			$username = $this->input->post('username');
+			$password = $this->input->post('password');
+		}
+	}
 }
