@@ -145,7 +145,7 @@ img.aligncenter {display: block; margin-left: auto; margin-right: auto}
 .wrapper1 .headerNavMenu a.nav-link, .wrapper1 .headerNavMenu a.dropdown-item{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 500;
     color: #000000;
 }
 .wrapper1 .login-signup{
