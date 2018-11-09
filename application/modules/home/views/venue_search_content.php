@@ -46,7 +46,7 @@
                     <!-- Formats filter control -->
                     <div class="filter-separator"></div>
                     <h4>Formats</h4>
-                    <?php if($sports_category == 8){ ?>
+                    <?php if($sports_category != 8){ ?>
                         <label>
                             <input
                                 type="checkbox"
@@ -113,6 +113,8 @@
                         Outdoor
                     </label>
                     <?php } ?>
+
+	                <?php if($sports_category != 9){ ?>
                     <!-- Surfaces filter control -->
                     <div class="filter-separator"></div>
                     <h4>Surfaces</h4>
@@ -181,6 +183,31 @@
                             value="Wood/Parquet" />
                         Wood/Parquet
                     </label>
+                    <?php } else { ?>
+                        <div class="filter-separator"></div>
+                        <h4>Type of Yoga</h4>
+                        <label>
+                            <input
+                                type="checkbox"
+                                data-jplist-control="checkbox-text-filter"
+                                data-path=".surface"
+                                data-group="group1"
+                                data-name="name1"
+                                value="Hatha" />
+                            Hatha
+                        </label>
+                        <br>
+                        <label>
+                            <input
+                                type="checkbox"
+                                data-jplist-control="checkbox-text-filter"
+                                data-path=".surface"
+                                data-group="group1"
+                                data-name="name1"
+                                value="Vinyasa" />
+                            Vinyasa
+                        </label>
+                    <?php } ?>
                     <!-- Facilities filter control -->
                     <div class="filter-separator"></div>
                     <h4>Facilities</h4>
