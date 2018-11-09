@@ -265,6 +265,9 @@ img.aligncenter {display: block; margin-left: auto; margin-right: auto}
     display: inline-block;
     vertical-align: middle;
 }
+.wrapper3 ul li a{
+    color: #353535;
+}
 .wrapper3 ul li:first-child{
     padding-right: 10px;
 }
