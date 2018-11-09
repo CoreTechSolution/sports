@@ -6,7 +6,9 @@
                 <div class="content-filter-area">
                     <!-- hidden sort control -->
 	                <?php if(!empty($venus)){ ?>
-
+	                    <?php foreach($venus as $venue){ ?>
+                            <?php $sports_category = $venue->venue_category; ?>
+                        <?php } ?>
                     <?php } ?>
                     <div
                         style="display: none"
@@ -44,6 +46,51 @@
                     <!-- Formats filter control -->
                     <div class="filter-separator"></div>
                     <h4>Formats</h4>
+                    <?php if($sports_category == 8){ ?>
+                        <label>
+                            <input
+                                type="checkbox"
+                                data-jplist-control="checkbox-text-filter"
+                                data-path=".format"
+                                data-group="group1"
+                                data-name="name1"
+                                value="5 a side" />
+                            5 a side
+                        </label>
+                        <br>
+                        <label>
+                            <input
+                                type="checkbox"
+                                data-jplist-control="checkbox-text-filter"
+                                data-path=".format"
+                                data-group="group1"
+                                data-name="name1"
+                                value="6 a side" />
+                            6 a side
+                        </label>
+                        <br>
+                        <label>
+                            <input
+                                type="checkbox"
+                                data-jplist-control="checkbox-text-filter"
+                                data-path=".format"
+                                data-group="group1"
+                                data-name="name1"
+                                value="7 a side" />
+                            7 a side
+                        </label>
+                        <br>
+                        <label>
+                            <input
+                                    type="checkbox"
+                                    data-jplist-control="checkbox-text-filter"
+                                    data-path=".format"
+                                    data-group="group1"
+                                    data-name="name1"
+                                    value="8 a side" />
+                            8 a side
+                        </label>
+                    <?php } else { ?>
                     <label>
                         <input
                             type="checkbox"
@@ -65,6 +112,7 @@
                             value="outdoor" />
                         Outdoor
                     </label>
+                    <?php } ?>
                     <!-- Surfaces filter control -->
                     <div class="filter-separator"></div>
                     <h4>Surfaces</h4>
@@ -225,7 +273,7 @@
                             <!-- item -->
                             <div data-jplist-item>
                                 <div class="venue_wrapper">
-                                    <?php print_r($venue); ?>
+                                    <?php //print_r($venue); ?>
                                     <div class="row">
                                         <div class="col-xl-4">
                                             <div class="venue_img"><img src="<?php echo $venue->venue_featured_img; ?>"></div>
