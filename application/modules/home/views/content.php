@@ -228,7 +228,7 @@
                                 </div>
                                 <div class="col-xl-4">
                                     <div class="form-group">
-                                        <input type="submit" class="form-control" name="submit" value="Book Your Court">
+                                        <input type="submit" class="form-control" name="submit" value="Search">
                                     </div>
                                 </div>
                             </div>
