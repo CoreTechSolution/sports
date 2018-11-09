@@ -5,6 +5,9 @@
 			<div class="col-xl-3">
                 <div class="content-filter-area">
                     <!-- hidden sort control -->
+	                <?php if(!empty($venus)){ ?>
+
+                    <?php } ?>
                     <div
                         style="display: none"
                         data-jplist-control="hidden-sort"
@@ -118,6 +121,17 @@
                             data-name="name1"
                             value="Synthetic Rubber" />
                         Synthetic Rubber
+                    </label>
+                    <br>
+                    <label>
+                        <input
+                            type="checkbox"
+                            data-jplist-control="checkbox-text-filter"
+                            data-path=".surface"
+                            data-group="group1"
+                            data-name="name1"
+                            value="Wood/Parquet" />
+                        Wood/Parquet
                     </label>
                     <!-- Facilities filter control -->
                     <div class="filter-separator"></div>
