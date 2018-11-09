@@ -25,6 +25,19 @@
                             placeholder="Search by Name" />
                         <button type="button" id="name-clear-btn">Clear</button>
                     </div>
+                    <!-- Booking Method filter control -->
+                    <div class="filter-separator"></div>
+                    <h4>Booking Method</h4>
+                    <label>
+                        <input
+                                type="checkbox"
+                                data-jplist-control="checkbox-text-filter"
+                                data-path=".format"
+                                data-group="group1"
+                                data-name="name1"
+                                value="online" />
+                        Online
+                    </label>
                     <!-- Formats filter control -->
                     <div class="filter-separator"></div>
                     <h4>Formats</h4>
