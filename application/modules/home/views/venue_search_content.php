@@ -225,7 +225,7 @@
                             <!-- item -->
                             <div data-jplist-item>
                                 <div class="venue_wrapper">
-                                    <?php //print_r($venue); ?>
+                                    <?php print_r($venue); ?>
                                     <div class="row">
                                         <div class="col-xl-4">
                                             <div class="venue_img"><img src="<?php echo $venue->venue_featured_img; ?>"></div>
