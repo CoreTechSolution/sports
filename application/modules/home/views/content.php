@@ -246,32 +246,32 @@
 		<div class="row">
 			<div class="col-lg-15">
 				<ul>
-					<li><img src="<?php echo base_url('assets/images/tennis.png'); ?>"></li>
-					<li>Tennis</li>
+					<li><a href="javascript:void(0);"><img src="<?php echo base_url('assets/images/tennis.png'); ?>"></a></li>
+					<li><a href="javascript:void(0);">Tennis</a></li>
 				</ul>
 			</div>
 			<div class="col-lg-15">
 				<ul>
-					<li><img src="<?php echo base_url('assets/images/barketball.png'); ?>"></li>
-					<li>Basketball</li>
+					<li><a href="javascript:void(0);"><img src="<?php echo base_url('assets/images/barketball.png'); ?>"></a></li>
+					<li><a href="javascript:void(0);">Basketball</a></li>
 				</ul>
 			</div>
 			<div class="col-lg-15">
 				<ul>
-					<li><img src="<?php echo base_url('assets/images/football.png'); ?>"></li>
-					<li>Football</li>
+					<li><a href="javascript:void(0);"><img src="<?php echo base_url('assets/images/football.png'); ?>"></a></li>
+					<li><a href="javascript:void(0);">Football</a></li>
 				</ul>
 			</div>
 			<div class="col-lg-15">
 				<ul>
-					<li><img src="<?php echo base_url('assets/images/yoga.png'); ?>"></li>
-					<li>Yoga</li>
+					<li><a href="javascript:void(0);"><img src="<?php echo base_url('assets/images/yoga.png'); ?>"></a></li>
+					<li><a href="javascript:void(0);">Yoga</a></li>
 				</ul>
 			</div>
 			<div class="col-lg-15">
 				<ul>
-					<li><img src="<?php echo base_url('assets/images/squash.png'); ?>"></li>
-					<li>Squash</li>
+					<li><a href="javascript:void(0);"><img src="<?php echo base_url('assets/images/squash.png'); ?>"></a></li>
+					<li><a href="javascript:void(0);">Squash</a></li>
 				</ul>
 			</div>
 		</div>
