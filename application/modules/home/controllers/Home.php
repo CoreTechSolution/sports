@@ -7,15 +7,14 @@ class Home extends MY_Controller {
 		$this->load->model('home_models');
 	}
 	public function index() {
-		$data['content_v'] = 'home/content';
-		$this->templates->call_template($data);
-
 		$current_city = $this->session->userdata('current_city');
 		if(!empty($current_city)){
 			echo $current_city;
 		} else {
 			echo 'current city is blank';
 		}
+		$data['content_v'] = 'home/content';
+		$this->templates->call_template($data);
 	}
 	public function venue_search_form(){
 		if($this->input->get('submit')){
