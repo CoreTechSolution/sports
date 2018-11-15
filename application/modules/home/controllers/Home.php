@@ -9,6 +9,13 @@ class Home extends MY_Controller {
 	public function index() {
 		$data['content_v'] = 'home/content';
 		$this->templates->call_template($data);
+
+		$current_city = $this->session->userdata('current_city');
+		if(!empty($current_city)){
+			echo $current_city;
+		} else {
+			echo 'current city is blank';
+		}
 	}
 	public function venue_search_form(){
 		if($this->input->get('submit')){
