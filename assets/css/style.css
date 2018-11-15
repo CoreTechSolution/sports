@@ -231,6 +231,8 @@ img.aligncenter {display: block; margin-left: auto; margin-right: auto}
     border: 0;
     padding: 10px 13px;
     height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 .wrapper2 .bx-wrapper .bx-prev {
     left: 10px;
