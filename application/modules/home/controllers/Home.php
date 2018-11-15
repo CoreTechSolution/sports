@@ -8,9 +8,7 @@ class Home extends MY_Controller {
 	}
 	public function index() {
 		$current_city = $this->session->userdata('current_city');
-		if(!empty($current_city)){
-			echo $current_city;
-		} else {
+		if(empty($current_city)){
 			$this->session->set_userdata('current_city', 'London');
 		}
 		$data['content_v'] = 'home/content';
