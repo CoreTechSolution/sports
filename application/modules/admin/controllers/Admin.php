@@ -236,4 +236,20 @@ class Admin extends MY_Controller {
             $this->templates->call_admin_template($data);
         }
     }
+
+	public function cities(){
+		isLogin();
+		$data['page_title'] = 'Cities';
+		$data['nav_title'] = 'Cities';
+		$data['page_content'] = 'admin/cities_view';
+		$cities = $this->admin_model->get_cities();
+		$data['cities'] = $cities;
+		$this->templates->call_admin_template($data);
+	}
+	public function delete_city(){
+		isLogin('admin');
+		$city_id = $this->input->get('id');
+		$this->admin_model->delete_city($city_id);
+		redirect('admin/cities');
+	}
 }

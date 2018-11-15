@@ -82,4 +82,19 @@ class Admin_Model extends MY_Model {
 		$this->db->where('ground_id', $ground_id);
 		$this->db->delete('grounds');
 	}
+
+	function get_cities(){
+		$this->db->select('*');
+		$this->db->from('cities');
+
+		if($query = $this->db->get()) {
+			return $query->result_array();
+		} else {
+			return false;
+		}
+	}
+	function delete_city($city_id) {
+		$this->db->where('id', $city_id);
+		$this->db->delete('cities');
+	}
 }

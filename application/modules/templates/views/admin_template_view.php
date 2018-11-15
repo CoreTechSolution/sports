@@ -86,6 +86,9 @@
                     <a href="<?php echo base_url('admin/sports-categories'); ?>" class="waves-effect"><i class="fas fa-certificate"></i> Sports</a>
                 </li>
                 <li>
+                    <a href="<?php echo base_url('admin/cities'); ?>" class="waves-effect"><i class="fas fa-certificate"></i> Cities</a>
+                </li>
+                <li>
                     <a href="<?php echo base_url('admin/venues'); ?>" class="waves-effect"><i class="fas fa-map-marker-alt"></i> Locations</a>
                 </li>
                 <li>
