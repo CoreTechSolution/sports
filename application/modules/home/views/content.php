@@ -204,7 +204,7 @@
                         <div class="col-xl-1"></div>
                         <div class="col-xl-10">
                             <div class="row">
-                                <div class="col-xl-5">
+                                <div class="col-xl-3">
                                     <div class="form-group">
                                         <select class="form-control" name="sport">
                                             <option value="">Select Sports</option>
@@ -221,7 +221,7 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-xl-5">
+                                <div class="col-xl-7">
                                     <div class="form-group">
                                         <input id="locationTextField2" type="text" class="form-control" name="location" placeholder="Select Location">
                                     </div>
