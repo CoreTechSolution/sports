@@ -11,7 +11,7 @@ class Home extends MY_Controller {
 		if(!empty($current_city)){
 			echo $current_city;
 		} else {
-			echo 'current city is blank';
+			$this->session->set_userdata('current_city', 'London');
 		}
 		$data['content_v'] = 'home/content';
 		$this->templates->call_template($data);
