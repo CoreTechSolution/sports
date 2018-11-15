@@ -97,4 +97,6 @@ class Admin_Model extends MY_Model {
 		$this->db->where('id', $city_id);
 		$this->db->delete('cities');
 	}
+
+
 }
